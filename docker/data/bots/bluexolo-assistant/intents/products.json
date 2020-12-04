@@ -1,0 +1,12 @@
+{
+  "name": "products",
+  "utterances": {
+    "en": [
+      "Products"
+    ]
+  },
+  "slots": [],
+  "contexts": [
+    "global"
+  ]
+}

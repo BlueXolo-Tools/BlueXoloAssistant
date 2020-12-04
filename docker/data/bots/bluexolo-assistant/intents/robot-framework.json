@@ -1,0 +1,12 @@
+{
+  "name": "robot-framework",
+  "utterances": {
+    "en": [
+      "Robot Framework"
+    ]
+  },
+  "slots": [],
+  "contexts": [
+    "global"
+  ]
+}

@@ -1,0 +1,12 @@
+{
+  "name": "collection",
+  "utterances": {
+    "en": [
+      "Collection"
+    ]
+  },
+  "slots": [],
+  "contexts": [
+    "global"
+  ]
+}

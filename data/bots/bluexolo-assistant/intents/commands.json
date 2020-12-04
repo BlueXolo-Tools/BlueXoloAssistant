@@ -1,0 +1,12 @@
+{
+  "name": "commands",
+  "utterances": {
+    "en": [
+      "Commands"
+    ]
+  },
+  "slots": [],
+  "contexts": [
+    "global"
+  ]
+}

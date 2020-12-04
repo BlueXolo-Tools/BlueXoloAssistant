@@ -1,0 +1,14 @@
+{
+  "name": "__qna__2h9q8vs8n8_where_do_you_live",
+  "contexts": [
+    "global"
+  ],
+  "utterances": {
+    "en": [
+      "Where do you live?",
+      "Where are you?",
+      "where are you now?"
+    ]
+  },
+  "slots": []
+}

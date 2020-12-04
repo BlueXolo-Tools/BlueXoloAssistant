@@ -1,0 +1,36 @@
+{
+  "version": "0.0.1",
+  "catchAll": {},
+  "startNode": "Concept",
+  "description": "",
+  "nodes": [
+    {
+      "id": "1a9096490a",
+      "name": "Concept",
+      "onEnter": [
+        "say #!builtin_text-0Gbp3h"
+      ],
+      "onReceive": null,
+      "next": [
+        {
+          "condition": "true",
+          "node": "ProfilesExit"
+        }
+      ],
+      "type": "standard"
+    },
+    {
+      "id": "7f6fb60968",
+      "name": "ProfilesExit",
+      "next": [
+        {
+          "condition": "true",
+          "node": "main.flow.json"
+        }
+      ],
+      "onEnter": [],
+      "onReceive": null,
+      "type": "standard"
+    }
+  ]
+}

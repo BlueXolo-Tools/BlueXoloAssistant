@@ -1,0 +1,12 @@
+{
+  "name": "phases",
+  "utterances": {
+    "en": [
+      "Phases"
+    ]
+  },
+  "slots": [],
+  "contexts": [
+    "global"
+  ]
+}

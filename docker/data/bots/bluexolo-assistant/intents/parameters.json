@@ -1,0 +1,12 @@
+{
+  "name": "parameters",
+  "utterances": {
+    "en": [
+      "Parameters"
+    ]
+  },
+  "slots": [],
+  "contexts": [
+    "global"
+  ]
+}

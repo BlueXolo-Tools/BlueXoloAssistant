@@ -1,0 +1,22 @@
+{
+  "name": "testcase",
+  "utterances": {
+    "en": [
+      "testCase",
+      "testcase example",
+      "what is a testCase?",
+      "how work a testCase?",
+      "example of testCase",
+      "how create a testCase?",
+      "import a testCase",
+      "test case documentation",
+      "test cases information",
+      "steps to create a test case",
+      "steps to run a test case"
+    ]
+  },
+  "slots": [],
+  "contexts": [
+    "global"
+  ]
+}

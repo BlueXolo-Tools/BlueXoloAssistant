@@ -1,0 +1,28 @@
+{
+  "name": "stepper",
+  "utterances": {
+    "en": [
+      "Stepper",
+      "configure Bluexolo",
+      "How to start?",
+      "Show samples",
+      "Bluexolo step by step",
+      "Example",
+      "First time",
+      "Tutorial",
+      "Instructive",
+      "Where is the stepper?",
+      "Introduction to BlueXolo",
+      "I'm new in BlueXolo",
+      "Which are the main steps?",
+      "How does the stepper work?",
+      "Which are the required steps?",
+      "What is a stepper?",
+      "How can I use the stepper?"
+    ]
+  },
+  "slots": [],
+  "contexts": [
+    "global"
+  ]
+}

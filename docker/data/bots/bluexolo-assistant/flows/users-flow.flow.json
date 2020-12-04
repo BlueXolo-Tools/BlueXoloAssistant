@@ -1,0 +1,52 @@
+{
+  "version": "0.0.1",
+  "catchAll": {},
+  "startNode": "Concept",
+  "description": "",
+  "nodes": [
+    {
+      "id": "00891693f6",
+      "name": "Concept",
+      "onEnter": [
+        "say #!builtin_text-7Fgtdf"
+      ],
+      "onReceive": null,
+      "next": [
+        {
+          "condition": "true",
+          "node": "ChoiseUsers"
+        }
+      ],
+      "type": "standard"
+    },
+    {
+      "id": "skill-9ca78c",
+      "type": "skill-call",
+      "skill": "choice",
+      "name": "ChoiseUsers",
+      "flow": "skills/choice-9ca78c.flow.json",
+      "next": [
+        {
+          "caption": "User picked [Exit]",
+          "condition": "temp['skill-choice-ret-1d0d1p0okz'] == \"Exit\"",
+          "node": "ExitUsers"
+        }
+      ],
+      "onEnter": null,
+      "onReceive": null
+    },
+    {
+      "id": "ae9875b6d3",
+      "name": "ExitUsers",
+      "next": [
+        {
+          "condition": "true",
+          "node": "main.flow.json"
+        }
+      ],
+      "onEnter": [],
+      "onReceive": null,
+      "type": "standard"
+    }
+  ]
+}

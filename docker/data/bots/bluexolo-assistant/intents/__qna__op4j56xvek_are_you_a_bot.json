@@ -1,0 +1,16 @@
+{
+  "name": "__qna__op4j56xvek_are_you_a_bot",
+  "contexts": [
+    "global"
+  ],
+  "utterances": {
+    "en": [
+      "are you a bot?",
+      "are you a robot?",
+      "are you human?",
+      "who are you?",
+      "Who am I talking to?"
+    ]
+  },
+  "slots": []
+}

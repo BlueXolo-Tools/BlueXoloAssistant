@@ -1,0 +1,16 @@
+{
+  "version": "0.0.1",
+  "catchAll": {},
+  "startNode": "Concept",
+  "description": "",
+  "nodes": [
+    {
+      "id": "b022710f40",
+      "name": "Concept",
+      "onEnter": [],
+      "onReceive": null,
+      "next": [],
+      "type": "standard"
+    }
+  ]
+}
