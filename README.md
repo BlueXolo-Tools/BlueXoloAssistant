@@ -1,1 +1,1 @@
-# BlueXoloAssistant
+# BlueXolo Assistant
