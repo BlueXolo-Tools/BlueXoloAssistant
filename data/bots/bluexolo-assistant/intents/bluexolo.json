@@ -1,0 +1,20 @@
+{
+  "name": "bluexolo",
+  "utterances": {
+    "en": [
+      "BlueXolo",
+      "What is BlueXolo?",
+      "What to do with BlueXolo?",
+      "How does BlueXolo work?",
+      "bx",
+      "bluexolo features",
+      "bluexolo functionality",
+      "bluexolo use cases",
+      "who uses bluexolo?"
+    ]
+  },
+  "slots": [],
+  "contexts": [
+    "global"
+  ]
+}

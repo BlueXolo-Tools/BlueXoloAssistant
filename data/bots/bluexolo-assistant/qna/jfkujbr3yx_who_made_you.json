@@ -1,0 +1,28 @@
+{
+  "id": "jfkujbr3yx_who_made_you",
+  "data": {
+    "action": "text",
+    "contexts": [
+      "global"
+    ],
+    "enabled": true,
+    "answers": {
+      "en": [
+        "I was designed by a great person"
+      ]
+    },
+    "questions": {
+      "en": [
+        "Who made you?",
+        "Who’s your boss?",
+        "Who’s your master?",
+        "Who designed you?",
+        "who is your dad?",
+        "who are your parents?",
+        "who is your mom?"
+      ]
+    },
+    "redirectFlow": "",
+    "redirectNode": ""
+  }
+}

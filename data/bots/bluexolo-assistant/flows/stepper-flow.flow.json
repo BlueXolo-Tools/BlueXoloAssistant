@@ -1,0 +1,214 @@
+{
+  "version": "0.0.1",
+  "catchAll": {},
+  "startNode": "Concept",
+  "description": "",
+  "nodes": [
+    {
+      "id": "261b65e255",
+      "name": "Concept",
+      "onEnter": [
+        "say #!builtin_text-NJ1E70"
+      ],
+      "onReceive": null,
+      "next": [
+        {
+          "condition": "true",
+          "node": "choice"
+        }
+      ],
+      "type": "standard"
+    },
+    {
+      "id": "skill-ecbfb0",
+      "type": "skill-call",
+      "skill": "choice",
+      "name": "choice",
+      "flow": "skills/choice-ecbfb0.flow.json",
+      "next": [
+        {
+          "caption": "User picked [StartSt...]",
+          "condition": "temp['skill-choice-ret-g6d6bryak9'] == \"StartStepper\"",
+          "node": "Step_00"
+        },
+        {
+          "caption": "User picked [Exit]",
+          "condition": "temp['skill-choice-ret-g6d6bryak9'] == \"Exit\"",
+          "node": "ExitStepper"
+        }
+      ],
+      "onEnter": null,
+      "onReceive": null
+    },
+    {
+      "id": "8d87d66eec",
+      "name": "ExitStepper",
+      "next": [
+        {
+          "condition": "true",
+          "node": "main.flow.json"
+        }
+      ],
+      "onEnter": [],
+      "onReceive": null,
+      "type": "standard"
+    },
+    {
+      "id": "2bacb0fecf",
+      "name": "Step_00",
+      "next": [
+        {
+          "condition": "true",
+          "node": "Step_01"
+        }
+      ],
+      "onEnter": [
+        "say #!builtin_text-0OvLE1",
+        "say #!builtin_image-vOH0lL"
+      ],
+      "onReceive": null,
+      "type": "standard"
+    },
+    {
+      "id": "f0009d91cd",
+      "name": "Step_01",
+      "next": [
+        {
+          "condition": "true",
+          "node": "Step_02"
+        }
+      ],
+      "onEnter": [
+        "say #!builtin_text-DrVezc",
+        "say #!builtin_image-xNJhm3",
+        "say #!builtin_text-ZCkkbX",
+        "say #!builtin_image-rrGALX"
+      ],
+      "onReceive": null,
+      "type": "standard"
+    },
+    {
+      "id": "33d3bb3343",
+      "name": "Step_02",
+      "next": [
+        {
+          "condition": "true",
+          "node": "Step_03"
+        }
+      ],
+      "onEnter": [
+        "say #!builtin_text-DrVezc"
+      ],
+      "onReceive": null,
+      "type": "standard"
+    },
+    {
+      "id": "8a09ae8bb4",
+      "name": "Step_03",
+      "next": [
+        {
+          "condition": "true",
+          "node": "Step_04"
+        }
+      ],
+      "onEnter": [
+        "say #!builtin_text-w6POCx",
+        "say #!builtin_image-TF8Tcu",
+        "say #!builtin_text-ov6GnN",
+        "say #!builtin_image-CkzF-R"
+      ],
+      "onReceive": null,
+      "type": "standard"
+    },
+    {
+      "id": "4fceb9e9c7",
+      "name": "Step_04",
+      "next": [
+        {
+          "condition": "true",
+          "node": "Step_05"
+        }
+      ],
+      "onEnter": [
+        "say #!builtin_text-xavJcC",
+        "say #!builtin_image-AvXdYR",
+        "say #!builtin_text-ZZ9ZgA"
+      ],
+      "onReceive": null,
+      "type": "standard"
+    },
+    {
+      "id": "db566f62d9",
+      "name": "Step_05",
+      "next": [
+        {
+          "condition": "true",
+          "node": "Continue_Choise"
+        }
+      ],
+      "onEnter": [
+        "say #!builtin_text-DrVezc",
+        "say #!builtin_image-QhSnyK"
+      ],
+      "onReceive": null,
+      "type": "standard"
+    },
+    {
+      "id": "7ee79bc36c",
+      "name": "Step_06",
+      "next": [
+        {
+          "condition": "true",
+          "node": "Step_07"
+        }
+      ],
+      "onEnter": [
+        "say #!builtin_text-zz5Kl8"
+      ],
+      "onReceive": null,
+      "type": "standard"
+    },
+    {
+      "id": "skill-682d13",
+      "type": "skill-call",
+      "skill": "choice",
+      "name": "Continue_Choise",
+      "flow": "skills/choice-682d13.flow.json",
+      "next": [
+        {
+          "caption": "User picked [Continu...]",
+          "condition": "temp['skill-choice-ret-osjucjbycl'] == \"Continue_Stepper\"",
+          "node": "Step_06"
+        },
+        {
+          "caption": "User picked [Exit_St...]",
+          "condition": "temp['skill-choice-ret-osjucjbycl'] == \"Exit_Stepper\"",
+          "node": "ExitStepper"
+        }
+      ],
+      "onEnter": null,
+      "onReceive": null
+    },
+    {
+      "id": "ee2202484b",
+      "name": "Step_07",
+      "next": [
+        {
+          "condition": "true",
+          "node": "Step_08"
+        }
+      ],
+      "onEnter": [],
+      "onReceive": null,
+      "type": "standard"
+    },
+    {
+      "id": "442e4a8462",
+      "name": "Step_08",
+      "next": [],
+      "onEnter": [],
+      "onReceive": null,
+      "type": "standard"
+    }
+  ]
+}

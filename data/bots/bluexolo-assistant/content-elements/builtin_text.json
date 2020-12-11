@@ -1,0 +1,541 @@
+[
+  {
+    "id": "builtin_text-thtetG",
+    "formData": {
+      "markdown$en": true,
+      "typing$en": true,
+      "text$en": "I am the BlueXolo Assistant. How can I help you?"
+    },
+    "createdBy": "admin",
+    "createdOn": "2020-07-14T14:25:51.040Z",
+    "modifiedOn": "2020-12-10T23:13:09.997Z"
+  },
+  {
+    "id": "builtin_text-B1B3dO",
+    "formData": {
+      "markdown$en": true,
+      "typing$en": true,
+      "text$en": "BlueXolo is a WEB framework that allows the generation of test scripts in a visual way using a “drag and drop” interface which allows the generation of complex test cases spending a minimum amount of time."
+    },
+    "createdBy": "admin",
+    "createdOn": "2020-07-14T15:42:11.359Z",
+    "modifiedOn": "2020-07-14T15:42:11.359Z"
+  },
+  {
+    "id": "builtin_text-VauDIA",
+    "formData": {
+      "markdown$en": true,
+      "typing$en": true,
+      "text$en": "Can I help you with something else?:)",
+      "variations$en": [
+        "Can I do something else for you?:)"
+      ]
+    },
+    "createdBy": "admin",
+    "createdOn": "2020-07-14T15:49:14.545Z",
+    "modifiedOn": "2020-07-15T18:39:42.218Z"
+  },
+  {
+    "id": "builtin_text-p2q0Xn",
+    "formData": {
+      "markdown$en": true,
+      "typing$en": true,
+      "variations$en": [
+        "Oops, I haven't understood what you mean.",
+        "Could you repeat it, please?"
+      ],
+      "text$en": "Sorry, I do not Undertand:("
+    },
+    "createdBy": "admin",
+    "createdOn": "2020-07-15T16:01:55.695Z",
+    "modifiedOn": "2020-07-16T22:31:03.568Z"
+  },
+  {
+    "id": "builtin_text-MMfTqW",
+    "formData": {
+      "markdown$en": true,
+      "typing$en": true,
+      "text$en": "For more information regarding Bluexolo, visit our documentation page:"
+    },
+    "createdBy": "admin",
+    "createdOn": "2020-07-15T18:13:07.404Z",
+    "modifiedOn": "2020-07-21T17:20:21.439Z"
+  },
+  {
+    "id": "builtin_text-Sq4tJK",
+    "formData": {
+      "markdown$en": true,
+      "typing$en": true,
+      "text$en": "https://ibm.github.io/BlueXolo/"
+    },
+    "createdBy": "admin",
+    "createdOn": "2020-07-15T18:20:39.049Z",
+    "modifiedOn": "2020-07-15T18:20:39.049Z"
+  },
+  {
+    "id": "builtin_text-7GQEAM",
+    "formData": {
+      "markdown$en": true,
+      "typing$en": true,
+      "text$en": "Keywords are the foundation upon which all robot tests are built."
+    },
+    "createdBy": "admin",
+    "createdOn": "2020-07-15T22:43:25.771Z",
+    "modifiedOn": "2020-07-16T21:41:51.719Z"
+  },
+  {
+    "id": "builtin_text-KDhX3v",
+    "formData": {
+      "markdown$en": true,
+      "typing$en": true,
+      "text$en": "To create a keyword you must go to the \"Keyword\" section of the drop-down menu:"
+    },
+    "createdBy": "admin",
+    "createdOn": "2020-07-16T00:23:30.077Z",
+    "modifiedOn": "2020-07-16T00:59:35.834Z"
+  },
+  {
+    "id": "builtin_text-pzvtsM",
+    "formData": {
+      "markdown$en": true,
+      "typing$en": true,
+      "text$en": "Once inside, look for the \"+\" button at the bottom right:"
+    },
+    "createdBy": "admin",
+    "createdOn": "2020-07-16T00:53:19.392Z",
+    "modifiedOn": "2020-07-16T00:59:44.568Z"
+  },
+  {
+    "id": "builtin_text-9wnhKd",
+    "formData": {
+      "markdown$en": true,
+      "typing$en": true,
+      "text$en": "And it would only be necessary to fill in the required spaces; the collection to which it belongs, the name, the description and the commands that will be part of the keyword:"
+    },
+    "createdBy": "admin",
+    "createdOn": "2020-07-16T00:54:19.163Z",
+    "modifiedOn": "2020-07-16T01:00:00.739Z"
+  },
+  {
+    "id": "builtin_text-Dc_s53",
+    "formData": {
+      "markdown$en": true,
+      "typing$en": true,
+      "text$en": "Finally, save your keyword:"
+    },
+    "createdBy": "admin",
+    "createdOn": "2020-07-16T00:55:41.611Z",
+    "modifiedOn": "2020-07-16T01:00:15.531Z"
+  },
+  {
+    "id": "builtin_text-PdhnQY",
+    "formData": {
+      "markdown$en": true,
+      "typing$en": true,
+      "text$en": "Please choose one of the options :("
+    },
+    "createdBy": "admin",
+    "createdOn": "2020-07-16T01:07:21.410Z",
+    "modifiedOn": "2020-07-16T01:07:21.410Z"
+  },
+  {
+    "id": "builtin_text-fja6pw",
+    "formData": {
+      "markdown$en": true,
+      "typing$en": true,
+      "text$en": "To import a keyword, it is necessary to go to the \"Import Scripts\" section of the dropdown menu:"
+    },
+    "createdBy": "admin",
+    "createdOn": "2020-07-16T01:53:07.208Z",
+    "modifiedOn": "2020-07-16T01:53:07.208Z"
+  },
+  {
+    "id": "builtin_text-G9hCNL",
+    "formData": {
+      "markdown$en": true,
+      "typing$en": true,
+      "text$en": "Click on the \"+\" button"
+    },
+    "createdBy": "admin",
+    "createdOn": "2020-07-16T02:12:40.830Z",
+    "modifiedOn": "2020-07-16T02:12:40.830Z"
+  },
+  {
+    "id": "builtin_text-zRY-_F",
+    "formData": {
+      "markdown$en": true,
+      "typing$en": true,
+      "text$en": "Assign a name, a description and upload the file"
+    },
+    "createdBy": "admin",
+    "createdOn": "2020-07-16T02:16:28.827Z",
+    "modifiedOn": "2020-07-16T02:16:28.827Z"
+  },
+  {
+    "id": "builtin_text-LUSW2L",
+    "formData": {
+      "markdown$en": true,
+      "typing$en": true,
+      "text$en": "To run a keyword you should go to the \"Keywords\" section of the dropdown menu:"
+    },
+    "createdBy": "admin",
+    "createdOn": "2020-07-16T20:49:32.992Z",
+    "modifiedOn": "2020-07-16T20:49:32.992Z"
+  },
+  {
+    "id": "builtin_text-y8QKUV",
+    "formData": {
+      "markdown$en": true,
+      "typing$en": true,
+      "text$en": "Once inside, you must select the keyword that you will execute and click on the play button:"
+    },
+    "createdBy": "admin",
+    "createdOn": "2020-07-16T20:51:53.496Z",
+    "modifiedOn": "2020-07-16T20:51:53.496Z"
+  },
+  {
+    "id": "builtin_text-lTxvD1",
+    "formData": {
+      "markdown$en": true,
+      "typing$en": true,
+      "text$en": "Finally, select the connection Profile and the Profile variables and you're done:"
+    },
+    "createdBy": "admin",
+    "createdOn": "2020-07-16T20:54:35.264Z",
+    "modifiedOn": "2020-07-16T20:54:35.264Z"
+  },
+  {
+    "id": "builtin_text-7Fgtdf",
+    "formData": {
+      "markdown$en": true,
+      "typing$en": true,
+      "text$en": "Concept"
+    },
+    "createdBy": "admin",
+    "createdOn": "2020-07-16T21:42:25.827Z",
+    "modifiedOn": "2020-07-16T21:42:25.827Z"
+  },
+  {
+    "id": "builtin_text-shVgd9",
+    "formData": {
+      "markdown$en": true,
+      "typing$en": true,
+      "text$en": "Hello, nice to meet you:)",
+      "variations$en": [
+        "Nice to meet you:)",
+        "¡Hello!"
+      ]
+    },
+    "createdBy": "admin",
+    "createdOn": "2020-07-20T18:57:43.419Z",
+    "modifiedOn": "2020-07-21T18:52:53.381Z"
+  },
+  {
+    "id": "builtin_text-_vQGn3",
+    "formData": {
+      "markdown$en": true,
+      "typing$en": true,
+      "text$en": "Documentation page:"
+    },
+    "createdBy": "admin",
+    "createdOn": "2020-07-21T17:22:35.228Z",
+    "modifiedOn": "2020-07-21T17:22:35.228Z"
+  },
+  {
+    "id": "builtin_text-bYPfHG",
+    "formData": {
+      "markdown$en": true,
+      "typing$en": true,
+      "text$en": "A TestCase is the set of Keywords and commands to perform a specific action"
+    },
+    "createdBy": "admin",
+    "createdOn": "2020-07-26T17:41:10.030Z",
+    "modifiedOn": "2020-07-26T17:41:10.030Z"
+  },
+  {
+    "id": "builtin_text-Fo7TCP",
+    "formData": {
+      "markdown$en": true,
+      "typing$en": true,
+      "text$en": "The TestSuites are the final step to generate a functional and ready to run scripts, is a set of TestCase and commands to perform an action that has a degree of complexity."
+    },
+    "createdBy": "admin",
+    "createdOn": "2020-07-26T17:43:40.996Z",
+    "modifiedOn": "2020-07-26T17:46:08.859Z"
+  },
+  {
+    "id": "builtin_text-9PFJRe",
+    "formData": {
+      "markdown$en": true,
+      "typing$en": true,
+      "text$en": "To create a TestCase you must go to the \"TestCase\" section of the dropdown menu"
+    },
+    "createdBy": "admin",
+    "createdOn": "2020-07-30T16:40:55.938Z",
+    "modifiedOn": "2020-07-30T16:40:55.938Z"
+  },
+  {
+    "id": "builtin_text-CtojYM",
+    "formData": {
+      "markdown$en": true,
+      "typing$en": true,
+      "text$en": "We look for the \"+\" button to be able to add a new TestCase"
+    },
+    "createdBy": "admin",
+    "createdOn": "2020-07-30T16:50:04.436Z",
+    "modifiedOn": "2020-07-30T16:50:04.436Z"
+  },
+  {
+    "id": "builtin_text-x95tkg",
+    "formData": {
+      "markdown$en": true,
+      "typing$en": true,
+      "text$en": "We fill in the spaces, where previously we had to have created a collection and a Phase:"
+    },
+    "createdBy": "admin",
+    "createdOn": "2020-07-30T17:09:08.267Z",
+    "modifiedOn": "2020-07-30T17:09:08.267Z"
+  },
+  {
+    "id": "builtin_text-qGYtLP",
+    "formData": {
+      "markdown$en": true,
+      "typing$en": true,
+      "text$en": "We add the keywords and the commands with the \"Drag and drop\" according to what you are looking for."
+    },
+    "createdBy": "admin",
+    "createdOn": "2020-07-30T17:25:06.776Z",
+    "modifiedOn": "2020-07-30T17:25:06.776Z"
+  },
+  {
+    "id": "builtin_text-I8O-br",
+    "formData": {
+      "markdown$en": true,
+      "typing$en": true,
+      "text$en": "Finally we keep the TestCase:"
+    },
+    "createdBy": "admin",
+    "createdOn": "2020-07-30T17:31:03.035Z",
+    "modifiedOn": "2020-07-30T17:31:03.035Z"
+  },
+  {
+    "id": "builtin_text-iZuudP",
+    "formData": {
+      "markdown$en": true,
+      "typing$en": true,
+      "text$en": "To run a TestCase we need to go to the \"TestCase\" section"
+    },
+    "createdBy": "admin",
+    "createdOn": "2020-07-30T17:49:18.954Z",
+    "modifiedOn": "2020-07-30T17:49:18.954Z"
+  },
+  {
+    "id": "builtin_text-H0ahRS",
+    "formData": {
+      "markdown$en": true,
+      "typing$en": true,
+      "text$en": "Once inside, click the \"+\" button"
+    },
+    "createdBy": "admin",
+    "createdOn": "2020-07-30T18:04:45.913Z",
+    "modifiedOn": "2020-07-30T18:04:45.913Z"
+  },
+  {
+    "id": "builtin_text-SRiSgw",
+    "formData": {
+      "markdown$en": true,
+      "typing$en": true,
+      "text$en": "It only remains to fill in the blanks and you could already run your TestCase:"
+    },
+    "createdBy": "admin",
+    "createdOn": "2020-07-30T18:08:15.195Z",
+    "modifiedOn": "2020-07-30T18:08:15.195Z"
+  },
+  {
+    "id": "builtin_text-CKnZUd",
+    "formData": {
+      "markdown$en": true,
+      "typing$en": true,
+      "text$en": "Solo quedaría llenar los espacios, en donde previamente se tuvo que haber creado un Profile:"
+    },
+    "createdBy": "admin",
+    "createdOn": "2020-07-30T19:02:59.691Z",
+    "modifiedOn": "2020-07-30T19:02:59.691Z"
+  },
+  {
+    "id": "builtin_text-NJ1E70",
+    "formData": {
+      "markdown$en": true,
+      "typing$en": true,
+      "text$en": "The Stepper is the tool to start in BlueXolo, in it we will gradually create what is needed to start working."
+    },
+    "createdBy": "admin",
+    "createdOn": "2020-08-13T18:34:32.837Z",
+    "modifiedOn": "2020-08-13T18:34:32.837Z"
+  },
+  {
+    "id": "builtin_text-0OvLE1",
+    "formData": {
+      "markdown$en": true,
+      "typing$en": true,
+      "text$en": "To start working with the Stepper, you need to find the \"Configure\" section of the drop-down menu."
+    },
+    "createdBy": "admin",
+    "createdOn": "2020-08-20T15:19:38.882Z",
+    "modifiedOn": "2020-08-20T15:19:38.882Z"
+  },
+  {
+    "id": "builtin_text-DrVezc",
+    "formData": {
+      "markdown$en": true,
+      "typing$en": true,
+      "text$en": "pending"
+    },
+    "createdBy": "admin",
+    "createdOn": "2020-08-20T15:38:43.155Z",
+    "modifiedOn": "2020-08-20T15:38:43.155Z"
+  },
+  {
+    "id": "builtin_text-ZCkkbX",
+    "formData": {
+      "markdown$en": true,
+      "typing$en": true,
+      "text$en": "pending x2"
+    },
+    "createdBy": "admin",
+    "createdOn": "2020-08-20T15:42:40.224Z",
+    "modifiedOn": "2020-08-20T15:42:40.224Z"
+  },
+  {
+    "id": "builtin_text-w6POCx",
+    "formData": {
+      "markdown$en": true,
+      "typing$en": true,
+      "text$en": "In this step the ZIP file of the RobotFramwork version to be used will be uploaded, use the direct link provided to go to the official page:"
+    },
+    "createdBy": "admin",
+    "createdOn": "2020-08-20T17:20:26.911Z",
+    "modifiedOn": "2020-08-20T17:20:26.911Z"
+  },
+  {
+    "id": "builtin_text-ov6GnN",
+    "formData": {
+      "markdown$en": true,
+      "typing$en": true,
+      "text$en": "Once the file is uploaded and its version is selected, we click on the \"Create\" button:"
+    },
+    "createdBy": "admin",
+    "createdOn": "2020-08-20T17:22:42.283Z",
+    "modifiedOn": "2020-08-20T17:22:42.283Z"
+  },
+  {
+    "id": "builtin_text-xavJcC",
+    "formData": {
+      "markdown$en": true,
+      "typing$en": true,
+      "text$en": "In this step we will extract the libraries that you require from the official page."
+    },
+    "createdBy": "admin",
+    "createdOn": "2020-09-01T18:04:28.882Z",
+    "modifiedOn": "2020-09-01T18:04:28.882Z"
+  },
+  {
+    "id": "builtin_text-ZZ9ZgA",
+    "formData": {
+      "markdown$en": true,
+      "typing$en": true,
+      "text$en": "You can either enter the URL or download the ZIP and upload it. Just click the \"Create\" button."
+    },
+    "createdBy": "admin",
+    "createdOn": "2020-09-01T18:08:01.436Z",
+    "modifiedOn": "2020-09-01T18:08:01.436Z"
+  },
+  {
+    "id": "builtin_text-zz5Kl8",
+    "formData": {
+      "markdown$en": true,
+      "typing$en": true,
+      "text$en": "Now we will create a template, which are the bases for the profiles:"
+    },
+    "createdBy": "admin",
+    "createdOn": "2020-09-02T18:53:13.060Z",
+    "modifiedOn": "2020-09-02T18:53:13.060Z"
+  },
+  {
+    "id": "builtin_text-QdoDqd",
+    "formData": {
+      "markdown$en": true,
+      "typing$en": true,
+      "text$en": "A collection is a set of keywords, test cases or test suites, is commonly used for organization, it\nhelps to keep testing items categorized."
+    },
+    "createdBy": "admin",
+    "createdOn": "2020-10-12T22:20:28.756Z",
+    "modifiedOn": "2020-10-12T22:20:28.756Z"
+  },
+  {
+    "id": "builtin_text-UCLm6J",
+    "formData": {
+      "markdown$en": true,
+      "typing$en": true,
+      "text$en": "A library reffers to a robot framework resource to run existing keywords implemented in the library,\njust official libraries can be installed*."
+    },
+    "createdBy": "admin",
+    "createdOn": "2020-10-12T22:22:10.716Z",
+    "modifiedOn": "2020-10-12T22:22:10.716Z"
+  },
+  {
+    "id": "builtin_text-7ee5z6",
+    "formData": {
+      "markdown$en": true,
+      "typing$en": true,
+      "text$en": "The parameters are important components of a template, basically a parameter is a piece of data inside a profile field, for example a user and password are needed parameters for login in the most common case."
+    },
+    "createdBy": "admin",
+    "createdOn": "2020-10-12T22:27:54.810Z",
+    "modifiedOn": "2020-10-12T22:27:54.810Z"
+  },
+  {
+    "id": "builtin_text-B82lJ3",
+    "formData": {
+      "markdown$en": true,
+      "typing$en": true,
+      "text$en": "A template is the backbone of a profie, contains a set of parameters to fill in a certain profile, for example, given the parameters user and password, it is possible to create a account template, then that template can be used to create a profile to mimic an account."
+    },
+    "createdBy": "admin",
+    "createdOn": "2020-10-12T22:29:15.098Z",
+    "modifiedOn": "2020-10-12T22:29:15.098Z"
+  },
+  {
+    "id": "builtin_text-ysHivI",
+    "formData": {
+      "markdown$en": true,
+      "typing$en": true,
+      "text$en": "A product contains information of an specific testing application, it is usefull to use products to keep all testing items of an application separated from other testing items of other applications."
+    },
+    "createdBy": "admin",
+    "createdOn": "2020-10-12T22:29:40.271Z",
+    "modifiedOn": "2020-10-12T22:29:40.271Z"
+  },
+  {
+    "id": "builtin_text-0Gbp3h",
+    "formData": {
+      "markdown$en": true,
+      "typing$en": true,
+      "text$en": "Profiles are created based on templates. A template needs to be created first. All parameters belonging to a template will be loaded on screen when selected. This can be populated with text can satisfy the intended purpose of the parameter."
+    },
+    "createdBy": "admin",
+    "createdOn": "2020-11-27T01:37:31.687Z",
+    "modifiedOn": "2020-11-27T01:37:31.687Z"
+  },
+  {
+    "id": "builtin_text-Up5Ige",
+    "formData": {
+      "markdown$en": true,
+      "typing$en": true,
+      "text$en": "In the \"Robot Framework\" section, a compressed file will be imported with the version to be used, it is important to say that it does NOT include libraries."
+    },
+    "createdBy": "admin",
+    "createdOn": "2020-11-27T01:40:57.987Z",
+    "modifiedOn": "2020-11-27T01:40:57.987Z"
+  }
+]

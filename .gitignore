@@ -1,0 +1,16 @@
+data/assets
+data/global/actions
+data/global/content-types
+data/global/examples
+data/global/hooks
+data/global/config/analytics.json
+data/global/config/basic-skills.json
+data/global/config/builtin.json
+data/global/config/channel-web.json
+data/global/config/code-editor.json
+data/global/config/examples.json
+data/global/config/extensions.json
+data/global/config/qna.json
+data/global/config/testing.json
+bot.config.schema.json
+botpress.config.schema.json

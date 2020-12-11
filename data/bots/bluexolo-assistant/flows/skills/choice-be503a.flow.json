@@ -1,0 +1,107 @@
+{
+  "version": "0.0.1",
+  "catchAll": {
+    "next": []
+  },
+  "startNode": "entry",
+  "skillData": {
+    "randomId": "5ow6c7tcvl",
+    "contentId": "builtin_single-choice-OvFan-",
+    "invalidContentId": "builtin_text-PdhnQY",
+    "keywords": {
+      "CreateKeyword": [
+        "CreateKeyword",
+        "How create a Keyword?"
+      ],
+      "ExampleKeyword": [
+        "ExampleKeyword",
+        "Run keyword example"
+      ],
+      "ImportKeyword": [
+        "ImportKeyword",
+        "How import a Keyword?"
+      ],
+      "ExitKeyword": [
+        "ExitKeyword",
+        "Exit"
+      ]
+    },
+    "config": {
+      "nbMaxRetries": 3,
+      "repeatChoicesOnInvalid": true
+    }
+  },
+  "nodes": [
+    {
+      "name": "entry",
+      "onEnter": [
+        "say #!builtin_single-choice-OvFan- {\"skill\":\"choice\"}"
+      ],
+      "next": [
+        {
+          "condition": "true",
+          "node": "parse"
+        }
+      ],
+      "id": "474871"
+    },
+    {
+      "name": "parse",
+      "onReceive": [
+        "basic-skills/choice_parse_answer {\"randomId\":\"5ow6c7tcvl\",\"contentId\":\"builtin_single-choice-OvFan-\",\"invalidContentId\":\"builtin_text-PdhnQY\",\"keywords\":{\"CreateKeyword\":[\"CreateKeyword\",\"How create a Keyword?\"],\"ExampleKeyword\":[\"ExampleKeyword\",\"Run keyword example\"],\"ImportKeyword\":[\"ImportKeyword\",\"How import a Keyword?\"],\"ExitKeyword\":[\"ExitKeyword\",\"Exit\"]},\"config\":{\"nbMaxRetries\":3,\"repeatChoicesOnInvalid\":true}}"
+      ],
+      "next": [
+        {
+          "condition": "temp['skill-choice-valid-5ow6c7tcvl'] === true",
+          "node": "#"
+        },
+        {
+          "condition": "true",
+          "node": "invalid"
+        }
+      ],
+      "triggers": [
+        {
+          "conditions": [
+            {
+              "id": "always"
+            }
+          ]
+        }
+      ],
+      "onEnter": [],
+      "id": "023333"
+    },
+    {
+      "name": "invalid",
+      "onEnter": [
+        "basic-skills/choice_invalid_answer {\"randomId\":\"5ow6c7tcvl\"}"
+      ],
+      "next": [
+        {
+          "condition": "Number(temp['skill-choice-invalid-count-5ow6c7tcvl']) > Number(3)",
+          "node": "#"
+        },
+        {
+          "condition": "true",
+          "node": "sorry"
+        }
+      ],
+      "id": "537874"
+    },
+    {
+      "name": "sorry",
+      "onEnter": [
+        "say #!builtin_text-PdhnQY {}",
+        "say #!builtin_single-choice-OvFan- {\"skill\":\"choice\"}"
+      ],
+      "next": [
+        {
+          "condition": "true",
+          "node": "parse"
+        }
+      ],
+      "id": "144656"
+    }
+  ]
+}

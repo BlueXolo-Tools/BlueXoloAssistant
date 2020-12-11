@@ -1,0 +1,23 @@
+{
+  "name": "keyword",
+  "utterances": {
+    "en": [
+      "keyword",
+      "run keyword example",
+      "what is a keyword?",
+      "how work a keyword?",
+      "example of keyword",
+      "how create a keyword?",
+      "import a keyword",
+      "how import a keyword?",
+      "keyword documentation",
+      "keyword information",
+      "steps to create a keyword",
+      "\rsteps to run a keyword"
+    ]
+  },
+  "slots": [],
+  "contexts": [
+    "global"
+  ]
+}

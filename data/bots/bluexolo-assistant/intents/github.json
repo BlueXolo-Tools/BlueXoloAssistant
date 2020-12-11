@@ -1,0 +1,23 @@
+{
+  "name": "github",
+  "utterances": {
+    "en": [
+      "Github",
+      "github link",
+      "Repository",
+      "Git",
+      "source code",
+      "contribute",
+      "issues",
+      "open issues",
+      "request feature",
+      "bug report",
+      "repo",
+      "bluexolo code"
+    ]
+  },
+  "slots": [],
+  "contexts": [
+    "global"
+  ]
+}
