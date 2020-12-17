@@ -548,5 +548,159 @@
     "createdBy": "admin",
     "createdOn": "2020-12-17T02:59:45.978Z",
     "modifiedOn": "2020-12-17T02:59:45.978Z"
+  },
+  {
+    "id": "builtin_text--Ckf5I",
+    "formData": {
+      "markdown$en": true,
+      "typing$en": true,
+      "text$en": "In BlueXolo the type of User develops different roles and has different menus."
+    },
+    "createdBy": "admin",
+    "createdOn": "2020-12-17T18:29:41.240Z",
+    "modifiedOn": "2020-12-17T18:29:41.240Z"
+  },
+  {
+    "id": "builtin_text-G7ehPd",
+    "formData": {
+      "markdown$en": true,
+      "typing$en": true,
+      "text$en": "The tester role, only allow us to run Test Cases, Test Suites and Imported Scripts."
+    },
+    "createdBy": "admin",
+    "createdOn": "2020-12-17T18:31:50.024Z",
+    "modifiedOn": "2020-12-17T18:31:50.024Z"
+  },
+  {
+    "id": "builtin_text-vUElpG",
+    "formData": {
+      "markdown$en": true,
+      "typing$en": true,
+      "text$en": "It also allow us to see the information of the collections."
+    },
+    "createdBy": "admin",
+    "createdOn": "2020-12-17T18:32:27.125Z",
+    "modifiedOn": "2020-12-17T18:32:27.125Z"
+  },
+  {
+    "id": "builtin_text-Yycvjo",
+    "formData": {
+      "markdown$en": true,
+      "typing$en": true,
+      "text$en": "Basically is a profile for testing the things that already in the database."
+    },
+    "createdBy": "admin",
+    "createdOn": "2020-12-17T18:32:56.334Z",
+    "modifiedOn": "2020-12-17T18:32:56.334Z"
+  },
+  {
+    "id": "builtin_text-x9imw8",
+    "formData": {
+      "markdown$en": true,
+      "typing$en": true,
+      "text$en": "In the developer role, you can use the stepper, add, modify, run and see all the Testing section: Keywords, Test Cases, Test Suites,Imported Scripts and Collections. They only have permissions to delete the imported scripts and collections."
+    },
+    "createdBy": "admin",
+    "createdOn": "2020-12-17T18:33:54.943Z",
+    "modifiedOn": "2020-12-17T18:34:31.007Z"
+  },
+  {
+    "id": "builtin_text-n-jLJI",
+    "formData": {
+      "markdown$en": true,
+      "typing$en": true,
+      "text$en": "Is a profile where the user can access to all the testing things, and can make changes (but not deleting)."
+    },
+    "createdBy": "admin",
+    "createdOn": "2020-12-17T18:35:23.937Z",
+    "modifiedOn": "2020-12-17T18:35:23.937Z"
+  },
+  {
+    "id": "builtin_text-6sFIVy",
+    "formData": {
+      "markdown$en": true,
+      "typing$en": true,
+      "text$en": "Finally, in the Sources section, with this role we can add, update, view and edit Commands, Robot Framework packages and Libraries."
+    },
+    "createdBy": "admin",
+    "createdOn": "2020-12-17T18:35:54.910Z",
+    "modifiedOn": "2020-12-17T18:35:54.910Z"
+  },
+  {
+    "id": "builtin_text-avFfhG",
+    "formData": {
+      "markdown$en": true,
+      "typing$en": true,
+      "text$en": "This role has more priveleges than the \"Tester\" role."
+    },
+    "createdBy": "admin",
+    "createdOn": "2020-12-17T18:36:30.105Z",
+    "modifiedOn": "2020-12-17T18:36:30.105Z"
+  },
+  {
+    "id": "builtin_text-LxQhuv",
+    "formData": {
+      "markdown$en": true,
+      "typing$en": true,
+      "text$en": "Using this role, in the \"Testing\" section, the user can only view the Keywords, Test Cases, Test Suites, Imported Scripts and collections."
+    },
+    "createdBy": "admin",
+    "createdOn": "2020-12-17T18:37:26.615Z",
+    "modifiedOn": "2020-12-17T18:37:26.615Z"
+  },
+  {
+    "id": "builtin_text-8ZRaTG",
+    "formData": {
+      "markdown$en": true,
+      "typing$en": true,
+      "text$en": "In the Servers section, you can add, update, view and delete the parameter. Also, you can view and add profiles, but you cant update or delete. You can only view the templates."
+    },
+    "createdBy": "admin",
+    "createdOn": "2020-12-17T18:37:49.503Z",
+    "modifiedOn": "2020-12-17T18:37:49.503Z"
+  },
+  {
+    "id": "builtin_text-gyVR4V",
+    "formData": {
+      "markdown$en": true,
+      "typing$en": true,
+      "text$en": "In the Sources section, Robot Framework pakages, Products, Libraries, Phases can only be viewed. (Conflict with adding). For the commands, you can extract from the local host o create new ones manually."
+    },
+    "createdBy": "admin",
+    "createdOn": "2020-12-17T18:38:15.740Z",
+    "modifiedOn": "2020-12-17T18:38:15.740Z"
+  },
+  {
+    "id": "builtin_text-texmg9",
+    "formData": {
+      "markdown$en": true,
+      "typing$en": true,
+      "text$en": "Using this role, you can use the stepper. In the \"Testing\" section, the user can view, add, update and run the Keywords, Test Cases, Test Suites, Imported Scripts and collections. The only thing you can delete, are the collections."
+    },
+    "createdBy": "admin",
+    "createdOn": "2020-12-17T18:39:06.246Z",
+    "modifiedOn": "2020-12-17T18:39:06.246Z"
+  },
+  {
+    "id": "builtin_text-7kLS8X",
+    "formData": {
+      "markdown$en": true,
+      "typing$en": true,
+      "text$en": "In the Servers section, you can add, update, view and delete the Parameters and also the Profiles."
+    },
+    "createdBy": "admin",
+    "createdOn": "2020-12-17T18:39:29.100Z",
+    "modifiedOn": "2020-12-17T18:39:29.100Z"
+  },
+  {
+    "id": "builtin_text-YFROMh",
+    "formData": {
+      "markdown$en": true,
+      "typing$en": true,
+      "text$en": "In the Sources section, you can add, update, view and delete, Commands, Robot Framework pakages, Libraries . Also for the commands, you can extract from the local host o create new ones manually."
+    },
+    "createdBy": "admin",
+    "createdOn": "2020-12-17T18:39:56.913Z",
+    "modifiedOn": "2020-12-17T18:39:56.913Z"
   }
 ]
