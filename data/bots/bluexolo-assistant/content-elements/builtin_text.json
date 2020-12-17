@@ -537,5 +537,16 @@
     "createdBy": "admin",
     "createdOn": "2020-11-27T01:40:57.987Z",
     "modifiedOn": "2020-11-27T01:40:57.987Z"
+  },
+  {
+    "id": "builtin_text-jbi6j1",
+    "formData": {
+      "markdown$en": true,
+      "typing$en": true,
+      "text$en": "In BlueXolo the type of User develops different roles and has different menus."
+    },
+    "createdBy": "admin",
+    "createdOn": "2020-12-17T02:59:45.978Z",
+    "modifiedOn": "2020-12-17T02:59:45.978Z"
   }
 ]

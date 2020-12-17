@@ -8,7 +8,7 @@
       "id": "00891693f6",
       "name": "Concept",
       "onEnter": [
-        "say #!builtin_text-7Fgtdf"
+        "say #!builtin_text-tv3jG-"
       ],
       "onReceive": null,
       "next": [
@@ -26,6 +26,26 @@
       "name": "ChoiseUsers",
       "flow": "skills/choice-9ca78c.flow.json",
       "next": [
+        {
+          "caption": "User picked [Tester]",
+          "condition": "temp['skill-choice-ret-1d0d1p0okz'] == \"Tester\"",
+          "node": "node-tester"
+        },
+        {
+          "caption": "User picked [Develop...]",
+          "condition": "temp['skill-choice-ret-1d0d1p0okz'] == \"Developer\"",
+          "node": "node-developer"
+        },
+        {
+          "caption": "User picked [Auditor]",
+          "condition": "temp['skill-choice-ret-1d0d1p0okz'] == \"Auditor\"",
+          "node": "node-auditor"
+        },
+        {
+          "caption": "User picked [Owner]",
+          "condition": "temp['skill-choice-ret-1d0d1p0okz'] == \"Owner\"",
+          "node": "node-owner"
+        },
         {
           "caption": "User picked [Exit]",
           "condition": "temp['skill-choice-ret-1d0d1p0okz'] == \"Exit\"",
@@ -45,6 +65,56 @@
         }
       ],
       "onEnter": [],
+      "onReceive": null,
+      "type": "standard"
+    },
+    {
+      "id": "ae0f6d506a",
+      "name": "node-tester",
+      "next": [],
+      "onEnter": [
+        "say #!builtin_text-P17P4K",
+        "say #!builtin_text-9skCQK",
+        "say #!builtin_text-Nea5WS"
+      ],
+      "onReceive": null,
+      "type": "standard"
+    },
+    {
+      "id": "908cbc6dfc",
+      "name": "node-developer",
+      "next": [],
+      "onEnter": [
+        "say #!builtin_text-JlSsXv",
+        "say #!builtin_text-GNuLGR",
+        "say #!builtin_text-RqXluJ",
+        "say #!builtin_text-Gv3qZ2",
+        "say #!builtin_text-0Zx4ln"
+      ],
+      "onReceive": null,
+      "type": "standard"
+    },
+    {
+      "id": "08610587df",
+      "name": "node-auditor",
+      "next": [],
+      "onEnter": [
+        "say #!builtin_text-4t9XMR",
+        "say #!builtin_text-U1QWbi",
+        "say #!builtin_text-dAr-7r"
+      ],
+      "onReceive": null,
+      "type": "standard"
+    },
+    {
+      "id": "5dca93b138",
+      "name": "node-owner",
+      "next": [],
+      "onEnter": [
+        "say #!builtin_text-yelqfX",
+        "say #!builtin_text-ztmbcf",
+        "say #!builtin_text-WZGHrM"
+      ],
       "onReceive": null,
       "type": "standard"
     }
