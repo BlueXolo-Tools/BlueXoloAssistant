@@ -537,5 +537,27 @@
     "createdBy": "admin",
     "createdOn": "2020-11-27T01:40:57.987Z",
     "modifiedOn": "2020-11-27T01:40:57.987Z"
+  },
+  {
+    "id": "builtin_text-7E_hdV",
+    "formData": {
+      "markdown$en": true,
+      "typing$en": true,
+      "text$en": "The Phases are the tool to carry out a control and organization of our Test Cases, with which they will be easy to identify stage in which we are."
+    },
+    "createdBy": "admin",
+    "createdOn": "2020-12-19T21:02:22.157Z",
+    "modifiedOn": "2020-12-19T21:02:22.157Z"
+  },
+  {
+    "id": "builtin_text-Dj7cUS",
+    "formData": {
+      "markdown$en": true,
+      "typing$en": true,
+      "text$en": "To add a new Phase it is only necessary to put a name and the product to which it belongs."
+    },
+    "createdBy": "admin",
+    "createdOn": "2020-12-19T21:07:06.672Z",
+    "modifiedOn": "2020-12-19T21:07:06.672Z"
   }
 ]
