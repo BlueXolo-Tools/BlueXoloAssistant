@@ -264,5 +264,27 @@
     "createdBy": "admin",
     "createdOn": "2020-09-02T17:22:48.815Z",
     "modifiedOn": "2020-09-02T17:22:48.815Z"
+  },
+  {
+    "id": "builtin_image-ddfubk",
+    "formData": {
+      "typing$en": true,
+      "image$en": "/api/v1/bots/bluexolo-assistant/media/eoy6ensn7pyiwj7h1ioq-menu.PNG",
+      "title$en": "PhasesMenu"
+    },
+    "createdBy": "admin",
+    "createdOn": "2020-12-19T21:05:34.674Z",
+    "modifiedOn": "2020-12-19T21:05:34.674Z"
+  },
+  {
+    "id": "builtin_image-oAoepW",
+    "formData": {
+      "typing$en": true,
+      "image$en": "/api/v1/bots/bluexolo-assistant/media/hovnedqlvsr7gwvl3nv9-0.PNG",
+      "title$en": "NewPhase"
+    },
+    "createdBy": "admin",
+    "createdOn": "2020-12-19T21:07:24.324Z",
+    "modifiedOn": "2020-12-19T21:07:24.324Z"
   }
 ]

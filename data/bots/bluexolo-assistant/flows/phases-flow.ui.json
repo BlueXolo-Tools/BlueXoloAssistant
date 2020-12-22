@@ -6,7 +6,74 @@
         "x": 100,
         "y": 100
       }
+    },
+    {
+      "id": "d4eba154aa",
+      "position": {
+        "x": 380,
+        "y": 100
+      }
+    },
+    {
+      "id": "b395a2be6e",
+      "position": {
+        "x": 650,
+        "y": 80
+      }
+    },
+    {
+      "id": "bbf434c55d",
+      "position": {
+        "x": 925,
+        "y": 110
+      }
     }
   ],
-  "links": []
+  "links": [
+    {
+      "source": "b022710f40",
+      "sourcePort": "out0",
+      "target": "d4eba154aa",
+      "points": [
+        {
+          "x": 300,
+          "y": 225
+        },
+        {
+          "x": 381,
+          "y": 118
+        }
+      ]
+    },
+    {
+      "source": "b395a2be6e",
+      "sourcePort": "out0",
+      "target": "bbf434c55d",
+      "points": [
+        {
+          "x": 850,
+          "y": 249
+        },
+        {
+          "x": 926,
+          "y": 128
+        }
+      ]
+    },
+    {
+      "source": "d4eba154aa",
+      "sourcePort": "out0",
+      "target": "b395a2be6e",
+      "points": [
+        {
+          "x": 580,
+          "y": 200
+        },
+        {
+          "x": 651,
+          "y": 98
+        }
+      ]
+    }
+  ]
 }
