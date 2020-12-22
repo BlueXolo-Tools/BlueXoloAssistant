@@ -7,9 +7,60 @@
     {
       "id": "b022710f40",
       "name": "Concept",
+      "onEnter": [
+        "say #!builtin_text-7E_hdV"
+      ],
+      "onReceive": null,
+      "next": [
+        {
+          "condition": "true",
+          "node": "node-phases01"
+        }
+      ],
+      "type": "standard"
+    },
+    {
+      "id": "d4eba154aa",
+      "name": "node-phases01",
+      "next": [
+        {
+          "condition": "true",
+          "node": "node-phases02"
+        }
+      ],
+      "onEnter": [
+        "say #!builtin_image-ddfubk"
+      ],
+      "onReceive": null,
+      "type": "standard"
+    },
+    {
+      "id": "b395a2be6e",
+      "name": "node-phases02",
+      "next": [
+        {
+          "condition": "true",
+          "node": "ExitPhases"
+        }
+      ],
+      "onEnter": [
+        "say #!builtin_text-Dj7cUS",
+        "say #!builtin_image-oAoepW"
+      ],
+      "onReceive": null,
+      "type": "standard"
+    },
+    {
+      "id": "bbf434c55d",
+      "name": "ExitPhases",
+      "next": [
+        {
+          "condition": "true",
+          "node": "main.flow.json"
+        }
+      ],
       "onEnter": [],
       "onReceive": null,
-      "next": [],
       "type": "standard"
     }
   ]
