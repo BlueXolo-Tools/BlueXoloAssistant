@@ -20,7 +20,7 @@ Fork this repository.
 Clone your fork `git clone https://github.com/[user]/BlueXoloAssistant.git`
 
 Execute the run script located in tools.
-> Example: ./run.sh [Docker image tag]
+> Example: ./run.sh [botpress/server docker image tag]
 
 Now the Botpress Server is running in `http://localhost:3000/`
 
@@ -47,7 +47,9 @@ Now the Botpress Server is running in `http://localhost:3000/`
 
 Each merge on the main branch means a version change acording to the evaluation
 on the integrated changes, increase the current number of version.
+
 `major.minor.micro`
+
 [Change log](https://github.com/BlueXolo-Tools/BlueXoloAssistant/blob/main/Change_log.md)
 
 ## License
