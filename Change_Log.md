@@ -20,4 +20,4 @@ The users flow has been implemented, to make it easier for the user to understan
 
 ## v1.2.0
 
-Add repository documentation and license.
+The "Phases" flow was implemented which will help the user to know what they are for and how to create them.
