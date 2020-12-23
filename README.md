@@ -1,5 +1,11 @@
 # BlueXolo Assistant
 
+[![Release](https://img.shields.io/github/v/release/BlueXolo-Tools/BlueXoloAssistant)](https://github.com/BlueXolo-Tools/BlueXoloAssistant/releases)
+[![Open Issues](https://img.shields.io/github/issues-raw/BlueXolo-Tools/BlueXoloAssistant)](https://github.com/BlueXolo-Tools/BlueXoloAssistant/issues)
+[![Open PRs](https://img.shields.io/github/issues-pr-raw/BlueXolo-Tools/BlueXoloAssistant)](https://github.com/BlueXolo-Tools/BlueXoloAssistant/pulls)
+[![Docker Cloud Automated](https://img.shields.io/docker/cloud/automated/snvc00/bluexolo-assistant)](https://hub.docker.com/repository/docker/snvc00/bluexolo-assistant/general)
+[![Docker Cloud Build](https://img.shields.io/docker/cloud/build/snvc00/bluexolo-assistant)](https://hub.docker.com/repository/docker/snvc00/bluexolo-assistant/general)
+
 ## About
 
 The BlueXolo Assistant was created to offer virtual assistant for BlueXolo users. The chat bot is able
