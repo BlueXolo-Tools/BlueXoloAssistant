@@ -70,6 +70,10 @@
       {
         "condition": "event.nlu.intent.name === 'users'",
         "node": "users-flow.flow.json"
+      },
+      {
+        "condition": "event.nlu.intent.name === 'version'",
+        "node": "version-flow.flow.json"
       }
     ]
   },
