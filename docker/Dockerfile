@@ -1,4 +1,4 @@
-FROM botpress/server:v12_14_2
+FROM botpress/server:v12_15_1
 LABEL maintainer="S. Valle"
 
 # Add bluexolo bot data
