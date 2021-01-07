@@ -21,3 +21,7 @@ The users flow has been implemented, to make it easier for the user to understan
 ## v1.2.0
 
 The "Phases" flow was implemented which will help the user to know what they are for and how to create them.
+
+## v1.3.0
+
+A version flow has been created to fetch information about latest releases of BlueXolo and BlueXolo Assistant.
