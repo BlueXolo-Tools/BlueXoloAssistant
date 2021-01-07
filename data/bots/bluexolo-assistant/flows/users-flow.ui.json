@@ -58,11 +58,116 @@
       "points": [
         {
           "x": 300,
-          "y": 175
+          "y": 210
         },
         {
-          "x": 491,
+          "x": 490,
           "y": 103
+        }
+      ]
+    },
+    {
+      "source": "08610587df",
+      "sourcePort": "out0",
+      "target": "skill-9ca78c",
+      "points": [
+        {
+          "x": 1735,
+          "y": 334
+        },
+        {
+          "x": 490,
+          "y": 103
+        }
+      ]
+    },
+    {
+      "source": "5dca93b138",
+      "sourcePort": "out0",
+      "target": "skill-9ca78c",
+      "points": [
+        {
+          "x": 1985,
+          "y": 322
+        },
+        {
+          "x": 490,
+          "y": 103
+        }
+      ]
+    },
+    {
+      "source": "908cbc6dfc",
+      "sourcePort": "out0",
+      "target": "skill-9ca78c",
+      "points": [
+        {
+          "x": 1485,
+          "y": 368
+        },
+        {
+          "x": 490,
+          "y": 103
+        }
+      ]
+    },
+    {
+      "source": "ae0f6d506a",
+      "sourcePort": "out0",
+      "target": "skill-9ca78c",
+      "points": [
+        {
+          "x": 1235,
+          "y": 258
+        },
+        {
+          "x": 490,
+          "y": 103
+        }
+      ]
+    },
+    {
+      "source": "skill-9ca78c",
+      "sourcePort": "out2",
+      "target": "08610587df",
+      "points": [
+        {
+          "x": 690,
+          "y": 188
+        },
+        {
+          "x": 1535,
+          "y": 58
+        }
+      ]
+    },
+    {
+      "source": "skill-9ca78c",
+      "sourcePort": "out3",
+      "target": "5dca93b138",
+      "points": [
+        {
+          "x": 690,
+          "y": 218
+        },
+        {
+          "x": 1785,
+          "y": 58
+        }
+      ]
+    },
+    {
+      "source": "skill-9ca78c",
+      "sourcePort": "out1",
+      "target": "908cbc6dfc",
+      "points": [
+        {
+          "x": 690,
+          "y": 158
+        },
+        {
+          "x": 1285,
+          "y": 58
         }
       ]
     },
@@ -77,7 +182,7 @@
         },
         {
           "x": 1035,
-          "y": 57
+          "y": 58
         }
       ]
     },
@@ -88,11 +193,11 @@
       "points": [
         {
           "x": 690,
-          "y": 129
+          "y": 248
         },
         {
-          "x": 708,
-          "y": 302
+          "x": 720,
+          "y": 278
         }
       ]
     }

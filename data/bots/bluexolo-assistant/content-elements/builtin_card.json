@@ -1,0 +1,38 @@
+[
+  {
+    "id": "builtin_card-GXDGiQ",
+    "formData": {
+      "title$en": "BlueXolo Framework",
+      "subtitle$en": "Release v{{temp.bluexolo.body.tag_name}}",
+      "actions$en": [
+        {
+          "action": "Open URL",
+          "title": "GitHub Repository",
+          "url": "https://github.com/IBM/BlueXolo"
+        }
+      ],
+      "image$en": "/api/v1/bots/bluexolo-assistant/media/h2lak8v94ye6mr86zf4k-bluexolo_small-logo.png"
+    },
+    "createdBy": "admin",
+    "createdOn": "2020-12-28T20:45:01.775Z",
+    "modifiedOn": "2020-12-28T22:47:15.298Z"
+  },
+  {
+    "id": "builtin_card-tmF3rk",
+    "formData": {
+      "title$en": "Virtual Assistance",
+      "subtitle$en": "Release {{temp.assistance.body.tag_name}}",
+      "actions$en": [
+        {
+          "action": "Open URL",
+          "title": "GitHub Repository",
+          "url": "https://github.com/BlueXolo-Tools/BlueXoloAssistant"
+        }
+      ],
+      "image$en": "/api/v1/bots/bluexolo-assistant/media/ocw18ruxsfyk2my553r0-bluexolo_small-logo.png"
+    },
+    "createdBy": "admin",
+    "createdOn": "2020-12-28T22:42:15.099Z",
+    "modifiedOn": "2020-12-28T22:46:33.683Z"
+  }
+]

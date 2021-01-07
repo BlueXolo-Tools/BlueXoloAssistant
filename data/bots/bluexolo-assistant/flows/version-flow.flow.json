@@ -1,0 +1,79 @@
+{
+  "version": "0.0.1",
+  "catchAll": {},
+  "startNode": "Call_GitHub_API_BlueXolo",
+  "description": "",
+  "nodes": [
+    {
+      "id": "37ac0032d2",
+      "name": "versionCards",
+      "onEnter": [
+        "say #!builtin_card-GXDGiQ",
+        "say #!builtin_card-tmF3rk"
+      ],
+      "onReceive": null,
+      "next": [
+        {
+          "condition": "true",
+          "node": "versionEnd"
+        }
+      ],
+      "type": "standard"
+    },
+    {
+      "id": "bb3db2a36c",
+      "name": "versionEnd",
+      "next": [
+        {
+          "condition": "true",
+          "node": "main.flow.json"
+        }
+      ],
+      "onEnter": [],
+      "onReceive": null,
+      "type": "standard"
+    },
+    {
+      "id": "skill-1ff014",
+      "type": "skill-call",
+      "skill": "CallAPI",
+      "name": "Call_GitHub_API_BlueXolo",
+      "flow": "skills/CallAPI-1ff014.flow.json",
+      "next": [
+        {
+          "caption": "On success",
+          "condition": "temp.valid",
+          "node": "Call_GitHub_API_Assistance"
+        },
+        {
+          "caption": "On failure",
+          "condition": "!temp.valid",
+          "node": "versionEnd"
+        }
+      ],
+      "onEnter": null,
+      "onReceive": null
+    },
+    {
+      "id": "skill-1f5efe",
+      "type": "skill-call",
+      "skill": "CallAPI",
+      "name": "Call_GitHub_API_Assistance",
+      "flow": "skills/CallAPI-1f5efe.flow.json",
+      "next": [
+        {
+          "caption": "On success",
+          "condition": "temp.valid",
+          "node": "versionCards"
+        },
+        {
+          "caption": "On failure",
+          "condition": "!temp.valid",
+          "node": "versionEnd"
+        }
+      ],
+      "onEnter": null,
+      "onReceive": null
+    }
+  ]
+}
