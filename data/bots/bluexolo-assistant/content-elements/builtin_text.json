@@ -27,9 +27,7 @@
       "markdown$en": true,
       "typing$en": true,
       "text$en": "Can I help you with something else?:)",
-      "variations$en": [
-        "Can I do something else for you?:)"
-      ]
+      "variations$en": ["Can I do something else for you?:)"]
     },
     "createdBy": "admin",
     "createdOn": "2020-07-14T15:49:14.545Z",
@@ -221,10 +219,7 @@
       "markdown$en": true,
       "typing$en": true,
       "text$en": "Hello, nice to meet you:)",
-      "variations$en": [
-        "Nice to meet you:)",
-        "¡Hello!"
-      ]
+      "variations$en": ["Nice to meet you:)", "¡Hello!"]
     },
     "createdBy": "admin",
     "createdOn": "2020-07-20T18:57:43.419Z",
@@ -724,5 +719,93 @@
     "createdBy": "admin",
     "createdOn": "2020-12-19T21:07:06.672Z",
     "modifiedOn": "2020-12-19T21:07:06.672Z"
+  },
+  {
+    "id": "builtin_text-aulmrj",
+    "formData": {
+      "markdown$en": true,
+      "typing$en": true,
+      "text$en": "To add a command we must go to the \"+\" button in the lower right and we will have 2 options; manually add or extract them from the operating system."
+    },
+    "createdBy": "admin",
+    "createdOn": "2021-01-10T19:05:52.077Z",
+    "modifiedOn": "2021-01-10T19:05:52.077Z"
+  },
+  {
+    "id": "builtin_text-q_3wxT",
+    "formData": {
+      "markdown$en": true,
+      "typing$en": true,
+      "text$en": "To add a command manually it will only be necessary to put the command, the source and a description of what it does (Optional)."
+    },
+    "createdBy": "admin",
+    "createdOn": "2021-01-10T19:13:01.232Z",
+    "modifiedOn": "2021-01-10T19:13:01.232Z"
+  },
+  {
+    "id": "builtin_text-eh_Xp7",
+    "formData": {
+      "markdown$en": true,
+      "typing$en": true,
+      "text$en": "To extract the commands of an operating system we will only indicate the Host and the Port or if we select the \"Get commands from local server\" box, it will extract all automatically."
+    },
+    "createdBy": "admin",
+    "createdOn": "2021-01-10T19:26:02.174Z",
+    "modifiedOn": "2021-01-10T19:26:02.174Z"
+  },
+  {
+    "id": "builtin_text-46Kgsf",
+    "formData": {
+      "markdown$en": true,
+      "typing$en": true,
+      "text$en": "A  test command is used to check file types and compare values."
+    },
+    "createdBy": "admin",
+    "createdOn": "2021-01-10T19:37:02.832Z",
+    "modifiedOn": "2021-01-10T19:37:02.832Z"
+  },
+  {
+    "id": "builtin_text-JaGsOR",
+    "formData": {
+      "markdown$en": true,
+      "typing$en": true,
+      "text$en": "In the commands tab we can search for the commands that we already have."
+    },
+    "createdBy": "admin",
+    "createdOn": "2021-01-10T19:39:18.373Z",
+    "modifiedOn": "2021-01-10T19:39:23.413Z"
+  },
+  {
+    "id": "builtin_text-ymxL0A",
+    "formData": {
+      "markdown$en": true,
+      "typing$en": true,
+      "text$en": "To create a new \"Profile\", we go to the \"+\" button at the bottom right of the Profile tab."
+    },
+    "createdBy": "admin",
+    "createdOn": "2021-01-09T05:29:58.255Z",
+    "modifiedOn": "2021-01-09T05:29:58.255Z"
+  },
+  {
+    "id": "builtin_text-4itkPh",
+    "formData": {
+      "markdown$en": true,
+      "typing$en": true,
+      "text$en": "To create a new \"Profile\", we go to the \"+\" button at the bottom right of the Profile tab."
+    },
+    "createdBy": "admin",
+    "createdOn": "2021-01-09T05:30:25.305Z",
+    "modifiedOn": "2021-01-09T05:30:25.305Z"
+  },
+  {
+    "id": "builtin_text-yCi1RF",
+    "formData": {
+      "markdown$en": true,
+      "typing$en": true,
+      "text$en": "It only remains to give it a name, a description, which is optional, assign it a \"Template\" (which should have already been created) and choose the global variables from a Parameter (which should have already been created)."
+    },
+    "createdBy": "admin",
+    "createdOn": "2021-01-09T05:37:12.640Z",
+    "modifiedOn": "2021-01-09T05:41:32.859Z"
   }
 ]
