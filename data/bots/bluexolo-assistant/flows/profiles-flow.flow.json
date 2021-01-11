@@ -8,13 +8,14 @@
       "id": "1a9096490a",
       "name": "Concept",
       "onEnter": [
-        "say #!builtin_text-0Gbp3h"
+        "say #!builtin_text-0Gbp3h",
+        "say #!builtin_image-Z0GPqP"
       ],
       "onReceive": null,
       "next": [
         {
           "condition": "true",
-          "node": "ProfilesExit"
+          "node": "NewProfile"
         }
       ],
       "type": "standard"
@@ -29,6 +30,38 @@
         }
       ],
       "onEnter": [],
+      "onReceive": null,
+      "type": "standard"
+    },
+    {
+      "id": "c9e126eb4f",
+      "name": "NewProfile",
+      "next": [
+        {
+          "condition": "true",
+          "node": "NewProfile_02"
+        }
+      ],
+      "onEnter": [
+        "say #!builtin_text-4itkPh",
+        "say #!builtin_image-G7cuBb"
+      ],
+      "onReceive": null,
+      "type": "standard"
+    },
+    {
+      "id": "d76136876e",
+      "name": "NewProfile_02",
+      "next": [
+        {
+          "condition": "true",
+          "node": "ProfilesExit"
+        }
+      ],
+      "onEnter": [
+        "say #!builtin_text-yCi1RF",
+        "say #!builtin_image-Ef7e_U"
+      ],
       "onReceive": null,
       "type": "standard"
     }
