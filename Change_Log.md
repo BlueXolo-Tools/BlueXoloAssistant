@@ -31,3 +31,7 @@ A version flow has been created to fetch information about latest releases of Bl
 The profile flow was implemented to help users to organize their information. The flow explains what profiles are, how to created them and the fields that must be filled.
 
 The command flow was added, it includes the concept and the way of adding commands manually and also being able to extract them from an operating system.
+
+## v1.4.1
+
+The Assistant now gives the answer one time instead of two on informative flows.
