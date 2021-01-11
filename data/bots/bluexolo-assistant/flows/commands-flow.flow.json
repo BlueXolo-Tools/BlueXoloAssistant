@@ -63,7 +63,7 @@
         }
       ],
       "onEnter": [],
-      "onReceive": null,
+      "onReceive": [],
       "type": "standard"
     },
     {
