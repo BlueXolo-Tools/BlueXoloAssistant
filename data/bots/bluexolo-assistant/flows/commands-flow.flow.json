@@ -7,9 +7,79 @@
     {
       "id": "c59aff7578",
       "name": "Concept",
+      "onEnter": [
+        "say #!builtin_text-46Kgsf",
+        "say #!builtin_image-o2KLXO",
+        "say #!builtin_text-JaGsOR"
+      ],
+      "onReceive": null,
+      "next": [
+        {
+          "condition": "true",
+          "node": "AddCommand"
+        }
+      ],
+      "type": "standard"
+    },
+    {
+      "id": "8391c03d98",
+      "name": "AddCommand",
+      "next": [
+        {
+          "condition": "true",
+          "node": "ManualCommand"
+        }
+      ],
+      "onEnter": [
+        "say #!builtin_image-NSgfx3",
+        "say #!builtin_text-aulmrj"
+      ],
+      "onReceive": null,
+      "type": "standard"
+    },
+    {
+      "id": "33859708eb",
+      "name": "ManualCommand",
+      "next": [
+        {
+          "condition": "true",
+          "node": "ExtractCommand"
+        }
+      ],
+      "onEnter": [
+        "say #!builtin_image-sv9fk_",
+        "say #!builtin_text-q_3wxT"
+      ],
+      "onReceive": null,
+      "type": "standard"
+    },
+    {
+      "id": "33734dced2",
+      "name": "CommandsExit",
+      "next": [
+        {
+          "condition": "true",
+          "node": "main.flow.json"
+        }
+      ],
       "onEnter": [],
       "onReceive": null,
-      "next": [],
+      "type": "standard"
+    },
+    {
+      "id": "af05a35110",
+      "name": "ExtractCommand",
+      "next": [
+        {
+          "condition": "true",
+          "node": "CommandsExit"
+        }
+      ],
+      "onEnter": [
+        "say #!builtin_image-3RLnP0",
+        "say #!builtin_text-eh_Xp7"
+      ],
+      "onReceive": null,
       "type": "standard"
     }
   ]
