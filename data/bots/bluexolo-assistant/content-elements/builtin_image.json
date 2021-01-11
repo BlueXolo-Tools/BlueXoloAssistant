@@ -286,5 +286,35 @@
     "createdBy": "admin",
     "createdOn": "2020-12-19T21:07:24.324Z",
     "modifiedOn": "2020-12-19T21:07:24.324Z"
+  },
+  {
+    "id": "builtin_image-Z0GPqP",
+    "formData": {
+      "typing$en": true,
+      "image$en": "/api/v1/bots/bluexolo-assistant/media/rdk6i1w5ww91p113qabi-menu desp flecha.png"
+    },
+    "createdBy": "admin",
+    "createdOn": "2021-01-09T05:32:53.589Z",
+    "modifiedOn": "2021-01-09T05:32:53.589Z"
+  },
+  {
+    "id": "builtin_image-G7cuBb",
+    "formData": {
+      "typing$en": true,
+      "image$en": "/api/v1/bots/bluexolo-assistant/media/87400mh3c8m9ou6q1vef-menu flecha.png"
+    },
+    "createdBy": "admin",
+    "createdOn": "2021-01-09T05:33:19.057Z",
+    "modifiedOn": "2021-01-09T05:33:19.057Z"
+  },
+  {
+    "id": "builtin_image-Ef7e_U",
+    "formData": {
+      "typing$en": true,
+      "image$en": "/api/v1/bots/bluexolo-assistant/media/8lsinwkcgxg031adewa1-0.PNG"
+    },
+    "createdBy": "admin",
+    "createdOn": "2021-01-09T05:43:03.673Z",
+    "modifiedOn": "2021-01-09T05:43:03.673Z"
   }
 ]
