@@ -20,8 +20,14 @@ The users flow has been implemented, to make it easier for the user to understan
 
 ## v1.2.0
 
-The "Phases" flow was implemented which will help the user to know what they are for and how to create them.
+The phases flow was implemented which will help the user to know what they are for and how to create them.
 
 ## v1.3.0
 
 A version flow has been created to fetch information about latest releases of BlueXolo and BlueXolo Assistant.
+
+## v1.4.0
+
+The profile flow was implemented to help users to organize their information. The flow explains what profiles are, how to created them and the fields that must be filled.
+
+The command flow was added, it includes the concept and the way of adding commands manually and also being able to extract them from an operating system.
