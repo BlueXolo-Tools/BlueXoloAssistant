@@ -286,5 +286,45 @@
     "createdBy": "admin",
     "createdOn": "2020-12-19T21:07:24.324Z",
     "modifiedOn": "2020-12-19T21:07:24.324Z"
+  },
+  {
+    "id": "builtin_image-NSgfx3",
+    "formData": {
+      "typing$en": true,
+      "image$en": "/api/v1/bots/bluexolo-assistant/media/xulaxga0qz3qn3g5imak-NewCommand.png"
+    },
+    "createdBy": "admin",
+    "createdOn": "2021-01-10T19:06:39.968Z",
+    "modifiedOn": "2021-01-10T19:06:39.968Z"
+  },
+  {
+    "id": "builtin_image-sv9fk_",
+    "formData": {
+      "typing$en": true,
+      "image$en": "/api/v1/bots/bluexolo-assistant/media/81hc533ug1avzj9g3pbb-ManualCommand.PNG"
+    },
+    "createdBy": "admin",
+    "createdOn": "2021-01-10T19:12:41.859Z",
+    "modifiedOn": "2021-01-10T19:12:41.859Z"
+  },
+  {
+    "id": "builtin_image-3RLnP0",
+    "formData": {
+      "typing$en": true,
+      "image$en": "/api/v1/bots/bluexolo-assistant/media/c6bjuzbu2l3s3xhnx1ee-ExtractCommand.PNG"
+    },
+    "createdBy": "admin",
+    "createdOn": "2021-01-10T19:25:26.573Z",
+    "modifiedOn": "2021-01-10T19:25:26.573Z"
+  },
+  {
+    "id": "builtin_image-o2KLXO",
+    "formData": {
+      "typing$en": true,
+      "image$en": "/api/v1/bots/bluexolo-assistant/media/ywxic7755jrb7cw1exxk-CommandsTab.PNG"
+    },
+    "createdBy": "admin",
+    "createdOn": "2021-01-10T19:38:40.201Z",
+    "modifiedOn": "2021-01-10T19:38:40.201Z"
   }
 ]
