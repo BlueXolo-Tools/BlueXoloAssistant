@@ -20,6 +20,16 @@
           "caption": "User picked [RunTest...]",
           "condition": "temp['skill-choice-ret-e16dza66mb'] == \"RunTestCase\"",
           "node": "TestCaseExample"
+        },
+        {
+          "caption": "User picked [Exit]",
+          "condition": "temp['skill-choice-ret-e16dza66mb'] == \"Exit\"",
+          "node": "main.flow.json"
+        },
+        {
+          "caption": "On failure",
+          "condition": "true",
+          "node": "main.flow.json"
         }
       ],
       "onEnter": null,
@@ -80,16 +90,6 @@
         "say #!builtin_image-9TzOK8",
         "say #!builtin_text-SRiSgw",
         "say #!builtin_image-giV7ci"
-      ],
-      "onReceive": null,
-      "type": "standard"
-    },
-    {
-      "id": "9e9657a0c5",
-      "name": "node-8ce7",
-      "next": [],
-      "onEnter": [
-        "say #!builtin_text-CKnZUd"
       ],
       "onReceive": null,
       "type": "standard"

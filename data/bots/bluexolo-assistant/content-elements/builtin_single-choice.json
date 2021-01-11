@@ -60,15 +60,20 @@
         {
           "title": "Run a TestCase",
           "value": "RunTestCase"
+        },
+        {
+          "title": "Exit",
+          "value": "Exit"
         }
       ],
       "markdown$en": true,
       "typing$en": true,
-      "text$en": "What would you like to know?"
+      "text$en": "What would you like to know?",
+      "disableFreeText$en": false
     },
     "createdBy": "admin",
     "createdOn": "2020-07-23T01:33:40.008Z",
-    "modifiedOn": "2020-07-30T17:42:27.351Z"
+    "modifiedOn": "2021-01-11T07:58:58.559Z"
   },
   {
     "id": "builtin_single-choice-tGWe5N",
