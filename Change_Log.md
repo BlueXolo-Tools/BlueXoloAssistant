@@ -35,3 +35,7 @@ The command flow was added, it includes the concept and the way of adding comman
 ## v1.4.1
 
 The Assistant now gives the answer one time instead of two on informative flows.
+
+## v1.4.2
+
+An exit option has been added to the multiple choice node in the Test Case flow to avoid endless loops. A not used node was removed.
