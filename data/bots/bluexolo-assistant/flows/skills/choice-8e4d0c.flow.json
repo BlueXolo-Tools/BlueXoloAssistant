@@ -16,6 +16,9 @@
       "RunTestCase": [
         "RunTestCase",
         "Run a TestCase"
+      ],
+      "Exit": [
+        "Exit"
       ]
     },
     "config": {
@@ -35,12 +38,12 @@
           "node": "parse"
         }
       ],
-      "id": "520395"
+      "id": "206559"
     },
     {
       "name": "parse",
       "onReceive": [
-        "basic-skills/choice_parse_answer {\"randomId\":\"e16dza66mb\",\"contentId\":\"builtin_single-choice--h8A1Q\",\"invalidContentId\":\"builtin_text-PdhnQY\",\"keywords\":{\"CreateTestCase\":[\"CreateTestCase\",\"Create a TestCase\"],\"RunTestCase\":[\"RunTestCase\",\"Run a TestCase\"]},\"config\":{\"nbMaxRetries\":3,\"repeatChoicesOnInvalid\":true}}"
+        "basic-skills/choice_parse_answer {\"randomId\":\"e16dza66mb\",\"contentId\":\"builtin_single-choice--h8A1Q\",\"invalidContentId\":\"builtin_text-PdhnQY\",\"keywords\":{\"CreateTestCase\":[\"CreateTestCase\",\"Create a TestCase\"],\"RunTestCase\":[\"RunTestCase\",\"Run a TestCase\"],\"Exit\":[\"Exit\"]},\"config\":{\"nbMaxRetries\":3,\"repeatChoicesOnInvalid\":true}}"
       ],
       "next": [
         {
@@ -62,7 +65,7 @@
         }
       ],
       "onEnter": [],
-      "id": "828414"
+      "id": "669042"
     },
     {
       "name": "invalid",
@@ -79,7 +82,7 @@
           "node": "sorry"
         }
       ],
-      "id": "693992"
+      "id": "282420"
     },
     {
       "name": "sorry",
@@ -93,7 +96,7 @@
           "node": "parse"
         }
       ],
-      "id": "273244"
+      "id": "719110"
     }
   ]
 }
