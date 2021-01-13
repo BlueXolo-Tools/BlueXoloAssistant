@@ -39,3 +39,7 @@ The Assistant now gives the answer one time instead of two on informative flows.
 ## v1.4.2
 
 An exit option has been added to the multiple choice node in the Test Case flow to avoid endless loops. A not used node was removed.
+
+## v1.5.2
+
+Test Suites flow was implemented, now the users can ask about this kind of testing item.

@@ -14,7 +14,17 @@
         {
           "caption": "User picked [CreateT...]",
           "condition": "temp['skill-choice-ret-5w3t1aj7x2'] == \"CreateTestSuite\"",
-          "node": ""
+          "node": "CreateTestSuite"
+        },
+        {
+          "caption": "User picked [RunTest...]",
+          "condition": "temp['skill-choice-ret-5w3t1aj7x2'] == \"RunTestSuite\"",
+          "node": "RunTestSuite"
+        },
+        {
+          "caption": "User picked [ExitTes...]",
+          "condition": "temp['skill-choice-ret-5w3t1aj7x2'] == \"ExitTestSuite\"",
+          "node": "ExitTestSuite"
         }
       ],
       "onEnter": null,
@@ -32,6 +42,55 @@
       "onEnter": [
         "say #!builtin_text-Fo7TCP"
       ],
+      "onReceive": null,
+      "type": "standard"
+    },
+    {
+      "id": "b0f18d52d3",
+      "name": "CreateTestSuite",
+      "next": [
+        {
+          "condition": "true",
+          "node": "ChoiceTestSuite"
+        }
+      ],
+      "onEnter": [
+        "say #!builtin_text-sUFjTX",
+        "say #!builtin_image-tem-9U",
+        "say #!builtin_text-HH0hFK",
+        "say #!builtin_image-FkBFEq"
+      ],
+      "onReceive": null,
+      "type": "standard"
+    },
+    {
+      "id": "62b2a75587",
+      "name": "RunTestSuite",
+      "next": [
+        {
+          "condition": "true",
+          "node": "ChoiceTestSuite"
+        }
+      ],
+      "onEnter": [
+        "say #!builtin_text-0iUV1v",
+        "say #!builtin_image-JenKm-",
+        "say #!builtin_text-tPQVtV",
+        "say #!builtin_image-2jW77k"
+      ],
+      "onReceive": null,
+      "type": "standard"
+    },
+    {
+      "id": "f7fcd3b138",
+      "name": "ExitTestSuite",
+      "next": [
+        {
+          "condition": "true",
+          "node": "main.flow.json"
+        }
+      ],
+      "onEnter": [],
       "onReceive": null,
       "type": "standard"
     }
