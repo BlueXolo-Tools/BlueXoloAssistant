@@ -24,12 +24,7 @@
         {
           "caption": "User picked [Exit]",
           "condition": "temp['skill-choice-ret-e16dza66mb'] == \"Exit\"",
-          "node": "main.flow.json"
-        },
-        {
-          "caption": "On failure",
-          "condition": "true",
-          "node": "main.flow.json"
+          "node": "ExitTestCase"
         }
       ],
       "onEnter": null,
@@ -92,6 +87,19 @@
         "say #!builtin_image-giV7ci"
       ],
       "onReceive": null,
+      "type": "standard"
+    },
+    {
+      "id": "b0176bb878",
+      "name": "ExitTestCase",
+      "next": [
+        {
+          "condition": "true",
+          "node": "main.flow.json"
+        }
+      ],
+      "onEnter": [],
+      "onReceive": [],
       "type": "standard"
     }
   ]
