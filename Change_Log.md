@@ -43,3 +43,20 @@ An exit option has been added to the multiple choice node in the Test Case flow 
 ## v1.5.2
 
 Test Suites flow was implemented, now the users can ask about this kind of testing item.
+
+## v1.6.2
+
+Intention additions in the flows:
+
+- Collections
+- Commands
+- Libraries
+- Parameters
+- Phases
+- Products
+- Version
+- Profiles
+- Robot Framework
+- Users
+
+The flow of the stepper, keyword, test case and test suite that made them repeat the question in the options node was also fixed.
