@@ -2,7 +2,19 @@
   "name": "users",
   "utterances": {
     "en": [
-      "Users"
+      "Users",
+      "What Users are on BlueXolo?",
+      "Types of Users",
+      "Auditor",
+      "Developer",
+      "Tester",
+      "Owner",
+      "What can I do as a Developer?",
+      "What can I do as a Tester?",
+      "What can I do as a Auditor?",
+      "What can I do as a Owner?",
+      "User caracteristics",
+      "What are the user restrictions?"
     ]
   },
   "slots": [],

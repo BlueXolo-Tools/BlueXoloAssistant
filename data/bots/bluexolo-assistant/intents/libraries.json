@@ -2,7 +2,18 @@
   "name": "libraries",
   "utterances": {
     "en": [
-      "Libraries"
+      "Libraries",
+      "What is a Library",
+      "What types of libraries can I use?",
+      "How to import libraries?",
+      "What is an external library?",
+      "Can I export libraries?",
+      "Libraries tab",
+      "Libraries example",
+      "Help with libraries",
+      "Libraries do not work",
+      "What kind of libraries can I use?",
+      "Where do I get libraries from?"
     ]
   },
   "slots": [],

@@ -2,7 +2,17 @@
   "name": "collection",
   "utterances": {
     "en": [
-      "Collection"
+      "Collection",
+      "What is a collection?",
+      "How to create a collection?",
+      "Why is needed a collection?",
+      "How to delete a collection?",
+      "Collection Example",
+      "Can I add a collection?",
+      "Where to find a collection?",
+      "What are the types of collection?",
+      "About collections",
+      "Collection definition"
     ]
   },
   "slots": [],

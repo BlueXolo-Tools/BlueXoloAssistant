@@ -2,7 +2,16 @@
   "name": "profiles",
   "utterances": {
     "en": [
-      "Profiles"
+      "Profiles",
+      "What is a Profile?",
+      "How to create a Profile?",
+      "Profiles Tab",
+      "Profile tutorial",
+      "Profile example",
+      "How to configure a profile?",
+      "Steps for a profile",
+      "Make a profile",
+      "Help with profiles"
     ]
   },
   "slots": [],

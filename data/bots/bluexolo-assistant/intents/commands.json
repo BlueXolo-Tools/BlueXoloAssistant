@@ -2,7 +2,18 @@
   "name": "commands",
   "utterances": {
     "en": [
-      "Commands"
+      "Commands",
+      "What is a command?",
+      "Command",
+      "Help with commands",
+      "Can I add parameters to my own commands?",
+      "How to create a command?",
+      "How to edit a command",
+      "Command example",
+      "Commands extraction",
+      "Add new command",
+      "About commands",
+      "Delete a command"
     ]
   },
   "slots": [],
