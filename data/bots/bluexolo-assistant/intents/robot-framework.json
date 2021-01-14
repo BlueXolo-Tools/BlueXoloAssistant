@@ -2,7 +2,18 @@
   "name": "robot-framework",
   "utterances": {
     "en": [
-      "Robot Framework"
+      "Robot Framework",
+      "What is uploaded in the RobotFramework tab?",
+      "What do I do in the RobotFramework tab?",
+      "Robot Framework version",
+      "What is Robot Framework?",
+      "Do I need to have robot framework installed?",
+      "How to add Robot Framework?",
+      "Help with Robot Framework",
+      "Robot",
+      "Robot Framework .zip",
+      "Robot compressed file",
+      "Zip with RobotFramework"
     ]
   },
   "slots": [],

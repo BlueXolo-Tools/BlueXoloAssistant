@@ -2,7 +2,18 @@
   "name": "products",
   "utterances": {
     "en": [
-      "Products"
+      "Products",
+      "What is a Product?",
+      "Product",
+      "Product application",
+      "Product tab",
+      "Contains information",
+      "Specific testing application",
+      "Product example",
+      "Help with products",
+      "How to create a product?",
+      "Add new product",
+      "How to delete a Product?"
     ]
   },
   "slots": [],
