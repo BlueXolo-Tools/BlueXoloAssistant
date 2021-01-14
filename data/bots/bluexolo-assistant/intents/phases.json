@@ -2,7 +2,17 @@
   "name": "phases",
   "utterances": {
     "en": [
-      "Phases"
+      "Phases",
+      "What is a Phase?",
+      "Phase tab",
+      "What are the phases for?",
+      "Phases menu",
+      "How to add a new phase",
+      "Phase example",
+      "Help with phases",
+      "How to organize test cases",
+      "Where can i create a phase?",
+      "Create new phase"
     ]
   },
   "slots": [],
