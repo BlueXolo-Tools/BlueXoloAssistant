@@ -34,5 +34,23 @@
     "createdBy": "admin",
     "createdOn": "2020-12-28T22:42:15.099Z",
     "modifiedOn": "2020-12-28T22:46:33.683Z"
+  },
+  {
+    "id": "builtin_card-Eb4FCB",
+    "formData": {
+      "image$en": "/api/v1/bots/bluexolo-assistant/media/9mfmfjpwbrnpvcgdv529-Documentation.png",
+      "actions$en": [
+        {
+          "action": "Open URL",
+          "title": "Documentation Page",
+          "url": "https://ibm.github.io/BlueXolo"
+        }
+      ],
+      "subtitle$en": "Find all the BlueXolo documentation",
+      "title$en": "Documentation Page"
+    },
+    "createdBy": "admin",
+    "createdOn": "2021-01-25T17:57:45.282Z",
+    "modifiedOn": "2021-01-25T17:57:45.282Z"
   }
 ]
