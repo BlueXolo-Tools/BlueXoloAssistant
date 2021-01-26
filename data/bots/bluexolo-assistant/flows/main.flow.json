@@ -74,6 +74,10 @@
       {
         "condition": "event.nlu.intent.name === 'version'",
         "node": "version-flow.flow.json"
+      },
+      {
+        "condition": "event.nlu.intent.name === 'github'",
+        "node": "version-flow.flow.json"
       }
     ]
   },
@@ -139,7 +143,7 @@
       "name": "Documentation",
       "next": [],
       "onEnter": [
-        "say #!builtin_text-Sq4tJK"
+        "say #!builtin_card-Eb4FCB"
       ],
       "onReceive": [],
       "type": "standard"
