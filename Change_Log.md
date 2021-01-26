@@ -60,3 +60,9 @@ Intention additions in the flows:
 - Users
 
 The flow of the stepper, keyword, test case and test suite that made them repeat the question in the options node was also fixed.
+
+## v1.6.3
+
+The answer for the documentation page is now a card with an image and the link. 
+
+When the users asks for GitHub, or the repositories the answer includes the repository link and latest release info.
