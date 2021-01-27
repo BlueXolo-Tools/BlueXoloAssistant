@@ -29,7 +29,7 @@
         {
           "caption": "User picked [StartSt...]",
           "condition": "temp['skill-choice-ret-g6d6bryak9'] == \"StartStepper\"",
-          "node": "Step_00"
+          "node": "Step_0"
         },
         {
           "caption": "User picked [Exit]",
@@ -50,139 +50,145 @@
         }
       ],
       "onEnter": [],
-      "onReceive": [],
+      "onReceive": null,
       "type": "standard"
     },
     {
-      "id": "2bacb0fecf",
-      "name": "Step_00",
+      "id": "c392640cb3",
+      "name": "Step_0",
       "next": [
         {
           "condition": "true",
-          "node": "Step_01"
+          "node": "Step_1-0"
         }
       ],
       "onEnter": [
-        "say #!builtin_text-0OvLE1",
-        "say #!builtin_image-vOH0lL"
+        "say #!builtin_text-XoMDKf"
       ],
       "onReceive": null,
       "type": "standard"
     },
     {
-      "id": "f0009d91cd",
-      "name": "Step_01",
+      "id": "c9f115d1fb",
+      "name": "Step_1-0",
       "next": [
         {
           "condition": "true",
-          "node": "Step_02"
+          "node": "Step_1-1"
         }
       ],
       "onEnter": [
-        "say #!builtin_text-DrVezc",
-        "say #!builtin_image-xNJhm3",
-        "say #!builtin_text-ZCkkbX",
-        "say #!builtin_image-rrGALX"
+        "say #!builtin_text-vxYFTb"
       ],
       "onReceive": null,
       "type": "standard"
     },
     {
-      "id": "33d3bb3343",
-      "name": "Step_02",
+      "id": "3ef9eb8263",
+      "name": "Step_1-1",
       "next": [
         {
           "condition": "true",
-          "node": "Step_03"
+          "node": "Step_1-2"
         }
       ],
       "onEnter": [
-        "say #!builtin_text-DrVezc"
+        "say #!builtin_text-DBOFjN",
+        "say #!builtin_text-pf198V",
+        "say #!builtin_text-XndPkk",
+        "say #!builtin_text-pf198V",
+        "say #!builtin_text-fllthM"
       ],
       "onReceive": null,
       "type": "standard"
     },
     {
-      "id": "8a09ae8bb4",
-      "name": "Step_03",
+      "id": "7326051189",
+      "name": "Step_1-2",
       "next": [
         {
           "condition": "true",
-          "node": "Step_04"
+          "node": "Step_1-3"
         }
       ],
       "onEnter": [
-        "say #!builtin_text-w6POCx",
-        "say #!builtin_image-TF8Tcu",
-        "say #!builtin_text-ov6GnN",
-        "say #!builtin_image-CkzF-R"
+        "say #!builtin_text-EITTUP",
+        "say #!builtin_text-pf198V",
+        "say #!builtin_text-Goulkg",
+        "say #!builtin_text-pf198V",
+        "say #!builtin_text-sZu1j4",
+        "say #!builtin_text-pf198V",
+        "say #!builtin_text-e-RuyJ"
       ],
       "onReceive": null,
       "type": "standard"
     },
     {
-      "id": "4fceb9e9c7",
-      "name": "Step_04",
+      "id": "b24adc0a99",
+      "name": "Step_1-3",
       "next": [
         {
           "condition": "true",
-          "node": "Step_05"
+          "node": "Step_1-4"
         }
       ],
       "onEnter": [
-        "say #!builtin_text-xavJcC",
-        "say #!builtin_image-AvXdYR",
-        "say #!builtin_text-ZZ9ZgA"
+        "say #!builtin_text-yClq-q",
+        "say #!builtin_text-pf198V",
+        "say #!builtin_text-5-zNq_"
       ],
       "onReceive": null,
       "type": "standard"
     },
     {
-      "id": "db566f62d9",
-      "name": "Step_05",
+      "id": "6731fa0ccc",
+      "name": "Step_1-4",
       "next": [
         {
           "condition": "true",
-          "node": "Continue_Choise"
+          "node": "Step_1-5"
         }
       ],
       "onEnter": [
-        "say #!builtin_text-DrVezc",
-        "say #!builtin_image-QhSnyK"
+        "say #!builtin_text-9Hxhqc",
+        "say #!builtin_text-pf198V",
+        "say #!builtin_text-TsYDWm"
       ],
       "onReceive": null,
       "type": "standard"
     },
     {
-      "id": "7ee79bc36c",
-      "name": "Step_06",
+      "id": "aa39201d6a",
+      "name": "Step_1-5",
       "next": [
         {
           "condition": "true",
-          "node": "Step_07"
+          "node": "Next_step_01"
         }
       ],
       "onEnter": [
-        "say #!builtin_text-zz5Kl8"
+        "say #!builtin_text-3Peoau",
+        "say #!builtin_text-pf198V",
+        "say #!builtin_text-nIdtLF"
       ],
       "onReceive": null,
       "type": "standard"
     },
     {
-      "id": "skill-682d13",
+      "id": "skill-e97396",
       "type": "skill-call",
       "skill": "choice",
-      "name": "Continue_Choise",
-      "flow": "skills/choice-682d13.flow.json",
+      "name": "Next_step_01",
+      "flow": "skills/choice-e97396.flow.json",
       "next": [
         {
           "caption": "User picked [Continu...]",
-          "condition": "temp['skill-choice-ret-osjucjbycl'] == \"Continue_Stepper\"",
-          "node": "Step_06"
+          "condition": "temp['skill-choice-ret-7x7f5jxaoo'] == \"Continue_Stepper\"",
+          "node": "Step_2-0"
         },
         {
           "caption": "User picked [Exit_St...]",
-          "condition": "temp['skill-choice-ret-osjucjbycl'] == \"Exit_Stepper\"",
+          "condition": "temp['skill-choice-ret-7x7f5jxaoo'] == \"Exit_Stepper\"",
           "node": "ExitStepper"
         }
       ],
@@ -190,23 +196,214 @@
       "onReceive": null
     },
     {
-      "id": "ee2202484b",
-      "name": "Step_07",
+      "id": "e30c2d8044",
+      "name": "Step_2-0",
       "next": [
         {
           "condition": "true",
-          "node": "Step_08"
+          "node": "Step_2-1"
         }
       ],
-      "onEnter": [],
+      "onEnter": [
+        "say #!builtin_text-zMrZx1"
+      ],
       "onReceive": null,
       "type": "standard"
     },
     {
-      "id": "442e4a8462",
-      "name": "Step_08",
-      "next": [],
-      "onEnter": [],
+      "id": "516aa0a64a",
+      "name": "Step_2-1",
+      "next": [
+        {
+          "condition": "true",
+          "node": "Step_2-2"
+        }
+      ],
+      "onEnter": [
+        "say #!builtin_text-ocXij3",
+        "say #!builtin_text-pf198V",
+        "say #!builtin_text-x-wkHj",
+        "say #!builtin_text-pf198V",
+        "say #!builtin_text-fhCmOV",
+        "say #!builtin_text-pf198V",
+        "say #!builtin_text-jcNg-w"
+      ],
+      "onReceive": null,
+      "type": "standard"
+    },
+    {
+      "id": "45a5f7380e",
+      "name": "Step_3-2",
+      "next": [
+        {
+          "condition": "true",
+          "node": "Step_3-3"
+        }
+      ],
+      "onEnter": [
+        "say #!builtin_text-4waRE0",
+        "say #!builtin_text-pf198V",
+        "say #!builtin_text-7jRLEI"
+      ],
+      "onReceive": null,
+      "type": "standard"
+    },
+    {
+      "id": "8ab9dea5f7",
+      "name": "Step_3-3",
+      "next": [
+        {
+          "condition": "true",
+          "node": "Step_3-4"
+        }
+      ],
+      "onEnter": [
+        "say #!builtin_text-juISnV",
+        "say #!builtin_text-pf198V",
+        "say #!builtin_text-PMYPNY"
+      ],
+      "onReceive": null,
+      "type": "standard"
+    },
+    {
+      "id": "cc7d0fa1f2",
+      "name": "Step_3-4",
+      "next": [
+        {
+          "condition": "true",
+          "node": "Next_step-03"
+        }
+      ],
+      "onEnter": [
+        "say #!builtin_text-y5UzIh",
+        "say #!builtin_text-pf198V",
+        "say #!builtin_text-VE2C5k"
+      ],
+      "onReceive": null,
+      "type": "standard"
+    },
+    {
+      "id": "627f7e5c95",
+      "name": "Step_2-2",
+      "next": [
+        {
+          "condition": "true",
+          "node": "Step_2-3"
+        }
+      ],
+      "onEnter": [
+        "say #!builtin_text-1gBzQh",
+        "say #!builtin_text-pf198V",
+        "say #!builtin_text-c6ioOV"
+      ],
+      "onReceive": null,
+      "type": "standard"
+    },
+    {
+      "id": "3a6509289f",
+      "name": "Step_2-3",
+      "next": [
+        {
+          "condition": "true",
+          "node": "Next_step-02"
+        }
+      ],
+      "onEnter": [
+        "say #!builtin_text-4D3c8E",
+        "say #!builtin_text-pf198V",
+        "say #!builtin_text-sIiOEJ"
+      ],
+      "onReceive": null,
+      "type": "standard"
+    },
+    {
+      "id": "73a67e13b0",
+      "type": "skill-call",
+      "skill": "choice",
+      "name": "Next_step-02",
+      "flow": "skills/choice-e97396.flow.json",
+      "next": [
+        {
+          "caption": "User picked [Continu...]",
+          "condition": "true",
+          "node": "Step_3-0"
+        },
+        {
+          "caption": "User picked [Exit_St...]",
+          "condition": "true",
+          "node": "ExitStepper"
+        }
+      ],
+      "onEnter": null,
+      "onReceive": null
+    },
+    {
+      "id": "b29b062885",
+      "name": "Step_3-0",
+      "next": [
+        {
+          "condition": "true",
+          "node": "Step_3-1"
+        }
+      ],
+      "onEnter": [
+        "say #!builtin_text-z1Qw9r"
+      ],
+      "onReceive": null,
+      "type": "standard"
+    },
+    {
+      "id": "35006c915e",
+      "name": "Step_3-1",
+      "next": [
+        {
+          "condition": "true",
+          "node": "Step_3-2"
+        }
+      ],
+      "onEnter": [
+        "say #!builtin_text-4gnkS5",
+        "say #!builtin_text-pf198V",
+        "say #!builtin_text-2gMiaB"
+      ],
+      "onReceive": null,
+      "type": "standard"
+    },
+    {
+      "id": "9e2ec0dbae",
+      "type": "skill-call",
+      "skill": "choice",
+      "name": "Next_step-03",
+      "flow": "skills/choice-e97396.flow.json",
+      "next": [
+        {
+          "caption": "User picked [Continu...]",
+          "condition": "true",
+          "node": "Step_4-0"
+        },
+        {
+          "caption": "User picked [Exit_St...]",
+          "condition": "true",
+          "node": "ExitStepper"
+        }
+      ],
+      "onEnter": null,
+      "onReceive": null
+    },
+    {
+      "id": "3003b3aad6",
+      "name": "Step_4-0",
+      "next": [
+        {
+          "condition": "true",
+          "node": "ExitStepper"
+        }
+      ],
+      "onEnter": [
+        "say #!builtin_text-xGSUrm",
+        "say #!builtin_text-pf198V",
+        "say #!builtin_text-YZSfRA"
+      ],
       "onReceive": null,
       "type": "standard"
     }

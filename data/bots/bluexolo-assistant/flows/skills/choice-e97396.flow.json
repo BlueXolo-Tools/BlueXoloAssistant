@@ -5,7 +5,7 @@
   },
   "startNode": "entry",
   "skillData": {
-    "randomId": "osjucjbycl",
+    "randomId": "7x7f5jxaoo",
     "contentId": "builtin_single-choice-RM1_sS",
     "invalidContentId": "",
     "keywords": {
@@ -20,7 +20,7 @@
     },
     "config": {
       "nbMaxRetries": 3,
-      "repeatChoicesOnInvalid": true
+      "repeatChoicesOnInvalid": false
     }
   },
   "nodes": [
@@ -35,16 +35,16 @@
           "node": "parse"
         }
       ],
-      "id": "583564"
+      "id": "023169"
     },
     {
       "name": "parse",
       "onReceive": [
-        "basic-skills/choice_parse_answer {\"randomId\":\"osjucjbycl\",\"contentId\":\"builtin_single-choice-RM1_sS\",\"invalidContentId\":\"\",\"keywords\":{\"Continue_Stepper\":[\"Continue_Stepper\",\"Yes ->\"],\"Exit_Stepper\":[\"Exit_Stepper\",\"No, exit\"]},\"config\":{\"nbMaxRetries\":3,\"repeatChoicesOnInvalid\":true}}"
+        "basic-skills/choice_parse_answer {\"randomId\":\"7x7f5jxaoo\",\"contentId\":\"builtin_single-choice-RM1_sS\",\"invalidContentId\":\"\",\"keywords\":{\"Continue_Stepper\":[\"Continue_Stepper\",\"Yes ->\"],\"Exit_Stepper\":[\"Exit_Stepper\",\"No, exit\"]},\"config\":{\"nbMaxRetries\":3,\"repeatChoicesOnInvalid\":false}}"
       ],
       "next": [
         {
-          "condition": "temp['skill-choice-valid-osjucjbycl'] === true",
+          "condition": "temp['skill-choice-valid-7x7f5jxaoo'] === true",
           "node": "#"
         },
         {
@@ -62,16 +62,16 @@
         }
       ],
       "onEnter": [],
-      "id": "259842"
+      "id": "891483"
     },
     {
       "name": "invalid",
       "onEnter": [
-        "basic-skills/choice_invalid_answer {\"randomId\":\"osjucjbycl\"}"
+        "basic-skills/choice_invalid_answer {\"randomId\":\"7x7f5jxaoo\"}"
       ],
       "next": [
         {
-          "condition": "Number(temp['skill-choice-invalid-count-osjucjbycl']) > Number(3)",
+          "condition": "Number(temp['skill-choice-invalid-count-7x7f5jxaoo']) > Number(3)",
           "node": "#"
         },
         {
@@ -79,20 +79,18 @@
           "node": "sorry"
         }
       ],
-      "id": "862498"
+      "id": "604024"
     },
     {
       "name": "sorry",
-      "onEnter": [
-        "say #!builtin_single-choice-RM1_sS {\"skill\":\"choice\"}"
-      ],
+      "onEnter": [],
       "next": [
         {
           "condition": "true",
           "node": "parse"
         }
       ],
-      "id": "907059"
+      "id": "249612"
     }
   ]
 }
