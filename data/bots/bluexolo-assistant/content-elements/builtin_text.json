@@ -1214,11 +1214,11 @@
     "formData": {
       "markdown$en": true,
       "typing$en": true,
-      "text$en": "###Testing\n**The testing part has 4 steps. Here you make create the needed tools for the testing.**"
+      "text$en": "###Testing\nThe testing part has 4 steps. Here you make create the needed tools for the testing."
     },
     "createdBy": "admin",
     "createdOn": "2021-01-27T19:14:23.130Z",
-    "modifiedOn": "2021-01-27T19:14:23.130Z"
+    "modifiedOn": "2021-01-28T19:39:05.977Z"
   },
   {
     "id": "builtin_text-4gnkS5",
@@ -1263,5 +1263,16 @@
     "createdBy": "admin",
     "createdOn": "2021-01-27T19:28:35.948Z",
     "modifiedOn": "2021-01-27T19:28:35.948Z"
+  },
+  {
+    "id": "builtin_text-1F6qKY",
+    "formData": {
+      "markdown$en": true,
+      "typing$en": true,
+      "text$en": "**The tutorial is over, enjoy Bluexolo :)**"
+    },
+    "createdBy": "admin",
+    "createdOn": "2021-01-28T19:41:27.730Z",
+    "modifiedOn": "2021-01-28T19:41:27.730Z"
   }
 ]

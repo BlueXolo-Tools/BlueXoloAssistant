@@ -50,7 +50,7 @@
         }
       ],
       "onEnter": [],
-      "onReceive": null,
+      "onReceive": [],
       "type": "standard"
     },
     {
@@ -94,9 +94,9 @@
       ],
       "onEnter": [
         "say #!builtin_text-DBOFjN",
-        "say #!builtin_text-pf198V",
+        "say #!builtin_image-pswOaN",
         "say #!builtin_text-XndPkk",
-        "say #!builtin_text-pf198V",
+        "say #!builtin_image-h5tKMY",
         "say #!builtin_text-fllthM"
       ],
       "onReceive": null,
@@ -113,11 +113,11 @@
       ],
       "onEnter": [
         "say #!builtin_text-EITTUP",
-        "say #!builtin_text-pf198V",
+        "say #!builtin_image-h72SmP",
         "say #!builtin_text-Goulkg",
-        "say #!builtin_text-pf198V",
+        "say #!builtin_image-DkbPwu",
         "say #!builtin_text-sZu1j4",
-        "say #!builtin_text-pf198V",
+        "say #!builtin_image-lOsbga",
         "say #!builtin_text-e-RuyJ"
       ],
       "onReceive": null,
@@ -134,7 +134,7 @@
       ],
       "onEnter": [
         "say #!builtin_text-yClq-q",
-        "say #!builtin_text-pf198V",
+        "say #!builtin_image-VOowSi",
         "say #!builtin_text-5-zNq_"
       ],
       "onReceive": null,
@@ -151,7 +151,7 @@
       ],
       "onEnter": [
         "say #!builtin_text-9Hxhqc",
-        "say #!builtin_text-pf198V",
+        "say #!builtin_image-QFY-gU",
         "say #!builtin_text-TsYDWm"
       ],
       "onReceive": null,
@@ -168,7 +168,7 @@
       ],
       "onEnter": [
         "say #!builtin_text-3Peoau",
-        "say #!builtin_text-pf198V",
+        "say #!builtin_image-cRzeIW",
         "say #!builtin_text-nIdtLF"
       ],
       "onReceive": null,
@@ -221,11 +221,11 @@
       ],
       "onEnter": [
         "say #!builtin_text-ocXij3",
-        "say #!builtin_text-pf198V",
+        "say #!builtin_image-M8_enY",
         "say #!builtin_text-x-wkHj",
-        "say #!builtin_text-pf198V",
+        "say #!builtin_image-4u-zjq",
         "say #!builtin_text-fhCmOV",
-        "say #!builtin_text-pf198V",
+        "say #!builtin_image-XqLMMl",
         "say #!builtin_text-jcNg-w"
       ],
       "onReceive": null,
@@ -242,7 +242,7 @@
       ],
       "onEnter": [
         "say #!builtin_text-4waRE0",
-        "say #!builtin_text-pf198V",
+        "say #!builtin_image-q0BVDZ",
         "say #!builtin_text-7jRLEI"
       ],
       "onReceive": null,
@@ -259,7 +259,7 @@
       ],
       "onEnter": [
         "say #!builtin_text-juISnV",
-        "say #!builtin_text-pf198V",
+        "say #!builtin_image-bF1ycM",
         "say #!builtin_text-PMYPNY"
       ],
       "onReceive": null,
@@ -276,7 +276,7 @@
       ],
       "onEnter": [
         "say #!builtin_text-y5UzIh",
-        "say #!builtin_text-pf198V",
+        "say #!builtin_image-aX8UTv",
         "say #!builtin_text-VE2C5k"
       ],
       "onReceive": null,
@@ -293,7 +293,7 @@
       ],
       "onEnter": [
         "say #!builtin_text-1gBzQh",
-        "say #!builtin_text-pf198V",
+        "say #!builtin_image-BqbjCH",
         "say #!builtin_text-c6ioOV"
       ],
       "onReceive": null,
@@ -310,7 +310,7 @@
       ],
       "onEnter": [
         "say #!builtin_text-4D3c8E",
-        "say #!builtin_text-pf198V",
+        "say #!builtin_image-M2Iaj_",
         "say #!builtin_text-sIiOEJ"
       ],
       "onReceive": null,
@@ -325,12 +325,12 @@
       "next": [
         {
           "caption": "User picked [Continu...]",
-          "condition": "true",
+          "condition": "temp['skill-choice-ret-7x7f5jxaoo'] == \"Continue_Stepper\"",
           "node": "Step_3-0"
         },
         {
           "caption": "User picked [Exit_St...]",
-          "condition": "true",
+          "condition": "temp['skill-choice-ret-7x7f5jxaoo'] == \"Exit_Stepper\"",
           "node": "ExitStepper"
         }
       ],
@@ -363,7 +363,7 @@
       ],
       "onEnter": [
         "say #!builtin_text-4gnkS5",
-        "say #!builtin_text-pf198V",
+        "say #!builtin_image-McJSQa",
         "say #!builtin_text-2gMiaB"
       ],
       "onReceive": null,
@@ -378,12 +378,12 @@
       "next": [
         {
           "caption": "User picked [Continu...]",
-          "condition": "true",
+          "condition": "temp['skill-choice-ret-7x7f5jxaoo'] == \"Continue_Stepper\"",
           "node": "Step_4-0"
         },
         {
           "caption": "User picked [Exit_St...]",
-          "condition": "true",
+          "condition": "temp['skill-choice-ret-7x7f5jxaoo'] == \"Exit_Stepper\"",
           "node": "ExitStepper"
         }
       ],
@@ -396,13 +396,28 @@
       "next": [
         {
           "condition": "true",
-          "node": "ExitStepper"
+          "node": "FarewellStepper"
         }
       ],
       "onEnter": [
         "say #!builtin_text-xGSUrm",
-        "say #!builtin_text-pf198V",
+        "say #!builtin_image-K5WXDi",
         "say #!builtin_text-YZSfRA"
+      ],
+      "onReceive": null,
+      "type": "standard"
+    },
+    {
+      "id": "e7fcd2fda7",
+      "name": "FarewellStepper",
+      "next": [
+        {
+          "condition": "true",
+          "node": "ExitStepper"
+        }
+      ],
+      "onEnter": [
+        "say #!builtin_text-1F6qKY"
       ],
       "onReceive": null,
       "type": "standard"
