@@ -396,5 +396,195 @@
     "createdBy": "admin",
     "createdOn": "2021-01-12T07:14:03.781Z",
     "modifiedOn": "2021-01-12T07:14:03.781Z"
+  },
+  {
+    "id": "builtin_image-pswOaN",
+    "formData": {
+      "typing$en": true,
+      "image$en": "/api/v1/bots/bluexolo-assistant/media/08hfqrzd86eraw2wpui4-1-1.0.png"
+    },
+    "createdBy": "admin",
+    "createdOn": "2021-01-28T18:55:09.166Z",
+    "modifiedOn": "2021-01-28T18:55:09.166Z"
+  },
+  {
+    "id": "builtin_image-h5tKMY",
+    "formData": {
+      "typing$en": true,
+      "image$en": "/api/v1/bots/bluexolo-assistant/media/ub5mzs59vc187wkwzddr-1-1.1.png"
+    },
+    "createdBy": "admin",
+    "createdOn": "2021-01-28T18:56:19.811Z",
+    "modifiedOn": "2021-01-28T18:56:19.811Z"
+  },
+  {
+    "id": "builtin_image-h72SmP",
+    "formData": {
+      "typing$en": true,
+      "image$en": "/api/v1/bots/bluexolo-assistant/media/na5qlk89gbpobgo36oj9-1-2.1.png"
+    },
+    "createdBy": "admin",
+    "createdOn": "2021-01-28T19:01:59.742Z",
+    "modifiedOn": "2021-01-28T19:01:59.742Z"
+  },
+  {
+    "id": "builtin_image-DkbPwu",
+    "formData": {
+      "typing$en": true,
+      "image$en": "/api/v1/bots/bluexolo-assistant/media/3w8bxgim7e98idwd59nd-1-2.0.png"
+    },
+    "createdBy": "admin",
+    "createdOn": "2021-01-28T19:06:22.907Z",
+    "modifiedOn": "2021-01-28T19:06:22.907Z"
+  },
+  {
+    "id": "builtin_image-lOsbga",
+    "formData": {
+      "typing$en": true,
+      "image$en": "/api/v1/bots/bluexolo-assistant/media/7mzy7h720nbxrknb2oxo-1-2.2.png"
+    },
+    "createdBy": "admin",
+    "createdOn": "2021-01-28T19:07:25.902Z",
+    "modifiedOn": "2021-01-28T19:07:25.902Z"
+  },
+  {
+    "id": "builtin_image-VOowSi",
+    "formData": {
+      "typing$en": true,
+      "image$en": "/api/v1/bots/bluexolo-assistant/media/queuxn14jh19gmi8cc9y-1-3.0.png"
+    },
+    "createdBy": "admin",
+    "createdOn": "2021-01-28T19:09:07.766Z",
+    "modifiedOn": "2021-01-28T19:09:07.766Z"
+  },
+  {
+    "id": "builtin_image-V2iaZE",
+    "formData": {
+      "typing$en": true,
+      "image$en": "/api/v1/bots/bluexolo-assistant/media/d63v0epocfsua9g9osj0-1-4.0.png"
+    },
+    "createdBy": "admin",
+    "createdOn": "2021-01-28T19:09:43.965Z",
+    "modifiedOn": "2021-01-28T19:09:43.965Z"
+  },
+  {
+    "id": "builtin_image-QFY-gU",
+    "formData": {
+      "typing$en": true,
+      "image$en": "/api/v1/bots/bluexolo-assistant/media/5e5wbfwxrb92dsihlacn-1-4.0.png"
+    },
+    "createdBy": "admin",
+    "createdOn": "2021-01-28T19:10:16.004Z",
+    "modifiedOn": "2021-01-28T19:10:16.004Z"
+  },
+  {
+    "id": "builtin_image-cRzeIW",
+    "formData": {
+      "typing$en": true,
+      "image$en": "/api/v1/bots/bluexolo-assistant/media/97frpqkonyv3rxx3wjg1-1-5.0.png"
+    },
+    "createdBy": "admin",
+    "createdOn": "2021-01-28T19:12:22.359Z",
+    "modifiedOn": "2021-01-28T19:12:22.359Z"
+  },
+  {
+    "id": "builtin_image-M8_enY",
+    "formData": {
+      "typing$en": true,
+      "image$en": "/api/v1/bots/bluexolo-assistant/media/igfa6y54g3jgqzix9h54-2-1.1.png"
+    },
+    "createdBy": "admin",
+    "createdOn": "2021-01-28T19:15:58.510Z",
+    "modifiedOn": "2021-01-28T19:15:58.510Z"
+  },
+  {
+    "id": "builtin_image-4u-zjq",
+    "formData": {
+      "typing$en": true,
+      "image$en": "/api/v1/bots/bluexolo-assistant/media/6wi2o5n1qsu6qoq2f78q-2-1.2.png"
+    },
+    "createdBy": "admin",
+    "createdOn": "2021-01-28T19:16:51.635Z",
+    "modifiedOn": "2021-01-28T19:16:51.635Z"
+  },
+  {
+    "id": "builtin_image-XqLMMl",
+    "formData": {
+      "typing$en": true,
+      "image$en": "/api/v1/bots/bluexolo-assistant/media/dd2gjrnrbp5mgcmyg4gm-2-1.3.png"
+    },
+    "createdBy": "admin",
+    "createdOn": "2021-01-28T19:17:47.928Z",
+    "modifiedOn": "2021-01-28T19:17:47.928Z"
+  },
+  {
+    "id": "builtin_image-BqbjCH",
+    "formData": {
+      "typing$en": true,
+      "image$en": "/api/v1/bots/bluexolo-assistant/media/u0azd0b9q42o2gsgseii-2-2.0.png"
+    },
+    "createdBy": "admin",
+    "createdOn": "2021-01-28T19:22:58.786Z",
+    "modifiedOn": "2021-01-28T19:22:58.786Z"
+  },
+  {
+    "id": "builtin_image-M2Iaj_",
+    "formData": {
+      "typing$en": true,
+      "image$en": "/api/v1/bots/bluexolo-assistant/media/jksuri2qqojj4scai35a-2-3.0.png"
+    },
+    "createdBy": "admin",
+    "createdOn": "2021-01-28T19:25:06.723Z",
+    "modifiedOn": "2021-01-28T19:25:06.723Z"
+  },
+  {
+    "id": "builtin_image-McJSQa",
+    "formData": {
+      "typing$en": true,
+      "image$en": "/api/v1/bots/bluexolo-assistant/media/nfm4puhxa8foek32n318-3-1.0.png"
+    },
+    "createdBy": "admin",
+    "createdOn": "2021-01-28T19:25:56.251Z",
+    "modifiedOn": "2021-01-28T19:25:56.251Z"
+  },
+  {
+    "id": "builtin_image-q0BVDZ",
+    "formData": {
+      "typing$en": true,
+      "image$en": "/api/v1/bots/bluexolo-assistant/media/v0sjjup3bqzo9lbz2cix-3-2.0.png"
+    },
+    "createdBy": "admin",
+    "createdOn": "2021-01-28T19:30:07.317Z",
+    "modifiedOn": "2021-01-28T19:30:07.317Z"
+  },
+  {
+    "id": "builtin_image-bF1ycM",
+    "formData": {
+      "typing$en": true,
+      "image$en": "/api/v1/bots/bluexolo-assistant/media/2y2y95gr7ee844sdifn3-3-3.0.png"
+    },
+    "createdBy": "admin",
+    "createdOn": "2021-01-28T19:30:36.331Z",
+    "modifiedOn": "2021-01-28T19:30:36.331Z"
+  },
+  {
+    "id": "builtin_image-aX8UTv",
+    "formData": {
+      "typing$en": true,
+      "image$en": "/api/v1/bots/bluexolo-assistant/media/sq1pj9kmxr55vjfor3hn-3-4.0.png"
+    },
+    "createdBy": "admin",
+    "createdOn": "2021-01-28T19:31:10.111Z",
+    "modifiedOn": "2021-01-28T19:31:10.111Z"
+  },
+  {
+    "id": "builtin_image-K5WXDi",
+    "formData": {
+      "typing$en": true,
+      "image$en": "/api/v1/bots/bluexolo-assistant/media/occ7no4rhgjanv23p891-4-1.0 (Run section).png"
+    },
+    "createdBy": "admin",
+    "createdOn": "2021-01-28T19:31:53.410Z",
+    "modifiedOn": "2021-01-28T19:31:53.410Z"
   }
 ]

@@ -867,5 +867,412 @@
     "createdBy": "admin",
     "createdOn": "2021-01-14T01:45:02.739Z",
     "modifiedOn": "2021-01-14T01:45:02.739Z"
+  },
+  {
+    "id": "builtin_text-XoMDKf",
+    "formData": {
+      "markdown$en": true,
+      "typing$en": true,
+      "text$en": "To Access to the stepper, we need to click the “Configure” button in the “First steps section.”\nIn this section you can configure the complete environment of the BlueXolo tool to start working.\nIn the stepper we have 4 main parts: Sources, Servers, Testing and Run."
+    },
+    "createdBy": "admin",
+    "createdOn": "2021-01-27T16:54:35.260Z",
+    "modifiedOn": "2021-01-27T16:54:35.260Z"
+  },
+  {
+    "id": "builtin_text-vxYFTb",
+    "formData": {
+      "markdown$en": true,
+      "typing$en": true,
+      "text$en": "###Sources\nFor the Sources part, we have 5 steps."
+    },
+    "createdBy": "admin",
+    "createdOn": "2021-01-27T17:05:28.249Z",
+    "modifiedOn": "2021-01-27T17:07:15.224Z"
+  },
+  {
+    "id": "builtin_text-DBOFjN",
+    "formData": {
+      "markdown$en": true,
+      "typing$en": true,
+      "text$en": "###Step 1\n**Getting the Products Commands**\nIn this option you can add product commands, to do so, you need to click in the Phases tab on the main menu and click in the Add product commands button."
+    },
+    "createdBy": "admin",
+    "createdOn": "2021-01-27T17:14:34.488Z",
+    "modifiedOn": "2021-01-27T17:19:56.807Z"
+  },
+  {
+    "id": "builtin_text-pf198V",
+    "formData": {
+      "markdown$en": true,
+      "typing$en": true,
+      "text$en": "*Image"
+    },
+    "createdBy": "admin",
+    "createdOn": "2021-01-27T17:15:45.936Z",
+    "modifiedOn": "2021-01-27T17:15:45.936Z"
+  },
+  {
+    "id": "builtin_text-XndPkk",
+    "formData": {
+      "markdown$en": true,
+      "typing$en": true,
+      "text$en": "Is required to add the name of the product and the version. It is optional to add the dependence requirement (version of Robot Framework). Also, the Host, the Port and  the Path are optional.\nIn this part, it automatically adds the username the password and the regex for the functionality. "
+    },
+    "createdBy": "admin",
+    "createdOn": "2021-01-27T17:16:38.639Z",
+    "modifiedOn": "2021-01-27T17:16:38.639Z"
+  },
+  {
+    "id": "builtin_text-EITTUP",
+    "formData": {
+      "markdown$en": true,
+      "typing$en": true,
+      "text$en": "###Step 2\n**Extract the OS Commands**\nMassive import of system commands. To perform the extraction of commands using the M-Extract, it is necessary to click on the button in the lower right corner, with the text “Extract from Operation System” (M-extract)."
+    },
+    "createdBy": "admin",
+    "createdOn": "2021-01-27T17:24:01.624Z",
+    "modifiedOn": "2021-01-27T17:24:01.624Z"
+  },
+  {
+    "id": "builtin_text-Goulkg",
+    "formData": {
+      "markdown$en": true,
+      "typing$en": true,
+      "text$en": "Here you have many filters to get those commands you want for the product. We have OS Commands, Product Robot Framework, Libraries, an Exact Search and None. "
+    },
+    "createdBy": "admin",
+    "createdOn": "2021-01-27T17:26:00.178Z",
+    "modifiedOn": "2021-01-27T17:26:00.178Z"
+  },
+  {
+    "id": "builtin_text-fllthM",
+    "formData": {
+      "markdown$en": true,
+      "typing$en": true,
+      "text$en": "By clicking the button “Create”, it creates the product correctly and it appears this “Congratulations” message"
+    },
+    "createdBy": "admin",
+    "createdOn": "2021-01-27T17:31:39.077Z",
+    "modifiedOn": "2021-01-27T17:31:39.077Z"
+  },
+  {
+    "id": "builtin_text-sZu1j4",
+    "formData": {
+      "markdown$en": true,
+      "typing$en": true,
+      "text$en": "To extract the commands, you need to click the plus grey button and also the green button to display this other window:"
+    },
+    "createdBy": "admin",
+    "createdOn": "2021-01-27T17:32:30.004Z",
+    "modifiedOn": "2021-01-27T17:32:30.004Z"
+  },
+  {
+    "id": "builtin_text-e-RuyJ",
+    "formData": {
+      "markdown$en": true,
+      "typing$en": true,
+      "text$en": "Here you have 2 options; providing a Host and Port for the server or “Get the commands from the local server”. If you want the 2nd option, you just need to select the checkbox and click “Run Extract”.\nIf you do this correctly it will show you the same “Congratulations” as before. But here, you have the option to “go to the previous step”, if you notice that you forgot something."
+    },
+    "createdBy": "admin",
+    "createdOn": "2021-01-27T17:33:09.469Z",
+    "modifiedOn": "2021-01-27T17:33:09.469Z"
+  },
+  {
+    "id": "builtin_text-yClq-q",
+    "formData": {
+      "markdown$en": true,
+      "typing$en": true,
+      "text$en": "###Step 3\n**Specifying our Robot Framework Version**\nThe Robot Framework commands used by the platform must be loaded into the database in order to be used by users. There are many versions of the Robot Framework and different versions of the same can be used, it is possible to massively load more than 1 version of commands. To start with the execution of this module, it is necessary to be in the main window after having logged in and select the \"Robot Framework option”.\nThis option leads to a window that contains the list of versions of Robot Framework available on the platform, as well as the option to add another version of the Robot Framework or to add several versions at the same time.\nClicking on the add button to the lower right corner will open a new window, in which the path of the .zip that is downloaded from the official Robot Framework documentation is requested. The documentation can be found in [Robot Framework](http://robotframework.org/robotframework/)."
+    },
+    "createdBy": "admin",
+    "createdOn": "2021-01-27T17:39:41.119Z",
+    "modifiedOn": "2021-01-27T18:09:05.394Z"
+  },
+  {
+    "id": "builtin_text-5-zNq_",
+    "formData": {
+      "markdown$en": true,
+      "typing$en": true,
+      "text$en": "Here you just need to specify the Robot Framework version with the number of the version and add the zip file (That needs to be already in your local machine) to upload it to the tool. Then you need to click the button “Create”.\nAfter that, it will appear the “Congratulations” message again."
+    },
+    "createdBy": "admin",
+    "createdOn": "2021-01-27T17:40:33.068Z",
+    "modifiedOn": "2021-01-27T17:40:33.068Z"
+  },
+  {
+    "id": "builtin_text-9Hxhqc",
+    "formData": {
+      "markdown$en": true,
+      "typing$en": true,
+      "text$en": "###Step 4\n**Extracting the libraries needed from Robot**\nThis option leads to a window that contains the list of versions of Robot Framework loaded on the platform, as well as the corresponding options to individually add a version of the Robot Framework or execute the process of adding several at the same time: The documentation can be found in [Robot Framework](http://robotframework.org/robotframework/)."
+    },
+    "createdBy": "admin",
+    "createdOn": "2021-01-27T17:44:45.313Z",
+    "modifiedOn": "2021-01-27T18:08:30.436Z"
+  },
+  {
+    "id": "builtin_text-TsYDWm",
+    "formData": {
+      "markdown$en": true,
+      "typing$en": true,
+      "text$en": "You need to add the library name, the version, and the file. It can be just the URL or an html file too.  Also, you need to specify the version of the Robot Framework that you want to use. \nAfter that, if you do everything correctly, it will appear the common “Congratulations” message, so that you can move to the next step or to the previous one."
+    },
+    "createdBy": "admin",
+    "createdOn": "2021-01-27T17:45:43.990Z",
+    "modifiedOn": "2021-01-27T17:45:43.990Z"
+  },
+  {
+    "id": "builtin_text-3Peoau",
+    "formData": {
+      "markdown$en": true,
+      "typing$en": true,
+      "text$en": "###Step 5\n**Creating a Phase for a new Project**\nTo add a Phase it is necessary to click on the Phases tab in the main menu and click on the Add Phase button. Once in the New Phase screen, it is necessary to select the Product and Name of the newPhase, click on CREATE."
+    },
+    "createdBy": "admin",
+    "createdOn": "2021-01-27T17:47:43.058Z",
+    "modifiedOn": "2021-01-27T17:47:43.058Z"
+  },
+  {
+    "id": "builtin_text-nIdtLF",
+    "formData": {
+      "markdown$en": true,
+      "typing$en": true,
+      "text$en": "When you finish this step, it will appear the “Congratulations” message."
+    },
+    "createdBy": "admin",
+    "createdOn": "2021-01-27T17:51:46.505Z",
+    "modifiedOn": "2021-01-27T17:51:46.505Z"
+  },
+  {
+    "id": "builtin_text-zMrZx1",
+    "formData": {
+      "markdown$en": true,
+      "typing$en": true,
+      "text$en": "###Servers \nFor the servers part we have 3 steps."
+    },
+    "createdBy": "admin",
+    "createdOn": "2021-01-27T17:54:31.125Z",
+    "modifiedOn": "2021-01-27T17:54:31.125Z"
+  },
+  {
+    "id": "builtin_text-ocXij3",
+    "formData": {
+      "markdown$en": true,
+      "typing$en": true,
+      "text$en": "###Step 1 \n**Creating a Template for a new Project.**\nTemplates are created as a base for profiles. You can add as many parameters as needed but you can only add parameters belonging to the selected category.\nValues to parameters are only defined on the profile view.\n*Category Groups:*\n - Global Variables -> Variables that can be used under variables Profile\n - Local Network connection -> Variables that can be used under Connection profile\n - Jenkins connection -> Variables that can be used under Jenkins profile\n"
+    },
+    "createdBy": "admin",
+    "createdOn": "2021-01-27T18:07:40.850Z",
+    "modifiedOn": "2021-01-27T18:52:35.895Z"
+  },
+  {
+    "id": "builtin_text-x-wkHj",
+    "formData": {
+      "markdown$en": true,
+      "typing$en": true,
+      "text$en": "Here, you need to add the name of the Template, also de Category Group (which is described above). You can add a description, but this is optional. To finish creating the Template, you need to add parameters. If you do not find anyone, you can create some here. If you already find the parameter you need, you just have to press the “Create Template” button.\n**Creating Parameters.**\nTo create new parameters, you can click the “Add Parameter” letter and it will display this window:\n"
+    },
+    "createdBy": "admin",
+    "createdOn": "2021-01-27T18:20:47.080Z",
+    "modifiedOn": "2021-01-27T18:20:47.080Z"
+  },
+  {
+    "id": "builtin_text-fhCmOV",
+    "formData": {
+      "markdown$en": true,
+      "typing$en": true,
+      "text$en": "Here you just need to add the Category Group, the name of the parameter and you can add a description, but this is optional. After that, you need to click the “Create” button and it will be done."
+    },
+    "createdBy": "admin",
+    "createdOn": "2021-01-27T18:28:14.326Z",
+    "modifiedOn": "2021-01-27T18:28:14.326Z"
+  },
+  {
+    "id": "builtin_text-jcNg-w",
+    "formData": {
+      "markdown$en": true,
+      "typing$en": true,
+      "text$en": "By finishing the template, it will appear the “Congratulations‘ message. Then you can move to the next step or to the previous one."
+    },
+    "createdBy": "admin",
+    "createdOn": "2021-01-27T18:28:56.875Z",
+    "modifiedOn": "2021-01-27T18:28:56.875Z"
+  },
+  {
+    "id": "builtin_text-4waRE0",
+    "formData": {
+      "markdown$en": true,
+      "typing$en": true,
+      "text$en": "###Step 2\n**Create a new Keyword.**\nTo create a new Keyword, you need to specify the Collection (maybe the Collection that you just made it), and the name of the Keyword. You can also provide a description, but It is optional. \nAnd a very important thing is that you need to add the commands that it will contain the keyword, otherwise, you could not create the Keyword. After adding (by drag and drop the commands in the zone or by typing it in the text zone), you just need to click the green button and the Keyword will be created."
+    },
+    "createdBy": "admin",
+    "createdOn": "2021-01-27T18:37:20.781Z",
+    "modifiedOn": "2021-01-27T18:37:20.781Z"
+  },
+  {
+    "id": "builtin_text-7jRLEI",
+    "formData": {
+      "markdown$en": true,
+      "typing$en": true,
+      "text$en": "After that, you will see the “Congratulations” message that allow us to travel through the steps."
+    },
+    "createdBy": "admin",
+    "createdOn": "2021-01-27T18:38:07.214Z",
+    "modifiedOn": "2021-01-27T18:38:07.214Z"
+  },
+  {
+    "id": "builtin_text-juISnV",
+    "formData": {
+      "markdown$en": true,
+      "typing$en": true,
+      "text$en": "###Step 3\n**Create a new Test Case.**\nTo create Test Cases, you need to add the Collection, the Phase, the Name of the Test Case, and you can set a description in general and a description for the functions, but these last two are optional.\nAnd, to create a Test Case, you need to add at least include one Keyword, you can do this by searching it in the “Keyword search” and using the drag and drop function or typing it in the text zone."
+    },
+    "createdBy": "admin",
+    "createdOn": "2021-01-27T18:41:24.486Z",
+    "modifiedOn": "2021-01-27T18:41:24.486Z"
+  },
+  {
+    "id": "builtin_text-PMYPNY",
+    "formData": {
+      "markdown$en": true,
+      "typing$en": true,
+      "text$en": "After that, you can use the green button to create the Test Case. \nWhen you finish, you will see the “Congratulations” message that allow us to travel trough the steps."
+    },
+    "createdBy": "admin",
+    "createdOn": "2021-01-27T18:42:58.296Z",
+    "modifiedOn": "2021-01-27T18:42:58.296Z"
+  },
+  {
+    "id": "builtin_text-y5UzIh",
+    "formData": {
+      "markdown$en": true,
+      "typing$en": true,
+      "text$en": "###Step 4\n**Create a new Test Suite.**\nTo create Test Suite, you need to add the Collection, the Name of the Test Suite, and you can set a description, but this is optional. \nAnd, to create a Test Suite, you need to add at least include one Test Case, you can do this by searching it in the “Test Case search” and using the drag and drop function or typing it in the text zone."
+    },
+    "createdBy": "admin",
+    "createdOn": "2021-01-27T18:45:03.015Z",
+    "modifiedOn": "2021-01-27T18:45:03.015Z"
+  },
+  {
+    "id": "builtin_text-VE2C5k",
+    "formData": {
+      "markdown$en": true,
+      "typing$en": true,
+      "text$en": "After that, you can use the green button to create the Test Suite. \nWhen you finish, you will see the “Congratulations” message that allow us to travel through the steps. "
+    },
+    "createdBy": "admin",
+    "createdOn": "2021-01-27T18:45:45.040Z",
+    "modifiedOn": "2021-01-27T18:45:45.040Z"
+  },
+  {
+    "id": "builtin_text-1gBzQh",
+    "formData": {
+      "markdown$en": true,
+      "typing$en": true,
+      "text$en": "###Step 2:\n**Creating a Profile for a new Project.**\nView to create profiles. Profiles are created based on templates. A template needs to be created first. All parameters belonging to a template will be loaded on screen when selected. This can be populated with text can satisfy the intended purpose of the parameter."
+    },
+    "createdBy": "admin",
+    "createdOn": "2021-01-27T18:55:50.796Z",
+    "modifiedOn": "2021-01-27T18:55:50.796Z"
+  },
+  {
+    "id": "builtin_text-c6ioOV",
+    "formData": {
+      "markdown$en": true,
+      "typing$en": true,
+      "text$en": "Here you create the profile for a new project. You need to add the name and the Template that is related to. And you can add a description, but as usual, this is optional. \nThen the button “Create” will be habilitated. When you finish this, it would be the “Congratulations” message and the buttons to travel through the steps."
+    },
+    "createdBy": "admin",
+    "createdOn": "2021-01-27T18:56:30.833Z",
+    "modifiedOn": "2021-01-27T18:56:30.833Z"
+  },
+  {
+    "id": "builtin_text-4D3c8E",
+    "formData": {
+      "markdown$en": true,
+      "typing$en": true,
+      "text$en": "###Step 3\n**Creating Parameters for a new Project.**\nView to create parameters. These items are use to create templates and they can hold a value under profiles. The parameters created here can only be used under the selected category group\n\n*Category Groups:*\n - Global Variables -> Variables that can be used under variables Profile\n - Local Network connection -> Variables that can be used under Connection profile\n - Jenkins connection -> Variables that can be used under Jenkins profile\n"
+    },
+    "createdBy": "admin",
+    "createdOn": "2021-01-27T19:01:59.521Z",
+    "modifiedOn": "2021-01-27T19:01:59.521Z"
+  },
+  {
+    "id": "builtin_text-sIiOEJ",
+    "formData": {
+      "markdown$en": true,
+      "typing$en": true,
+      "text$en": "To finish the “Servers” part, you need to create parameter for the project. \nYou just need to specify the Category Group provide a Name and an optional description. \nWhen you create this successfully it will appear the “Congratulations” message as usually."
+    },
+    "createdBy": "admin",
+    "createdOn": "2021-01-27T19:05:18.653Z",
+    "modifiedOn": "2021-01-27T19:05:18.653Z"
+  },
+  {
+    "id": "builtin_text-z1Qw9r",
+    "formData": {
+      "markdown$en": true,
+      "typing$en": true,
+      "text$en": "###Testing\nThe testing part has 4 steps. Here you make create the needed tools for the testing."
+    },
+    "createdBy": "admin",
+    "createdOn": "2021-01-27T19:14:23.130Z",
+    "modifiedOn": "2021-01-28T19:39:05.977Z"
+  },
+  {
+    "id": "builtin_text-4gnkS5",
+    "formData": {
+      "markdown$en": true,
+      "typing$en": true,
+      "text$en": "###Step 1\n**Create a new Collection.**\nA collection is standard library that provides a set of keywords.\n"
+    },
+    "createdBy": "admin",
+    "createdOn": "2021-01-27T19:18:19.999Z",
+    "modifiedOn": "2021-01-27T19:18:19.999Z"
+  },
+  {
+    "id": "builtin_text-2gMiaB",
+    "formData": {
+      "markdown$en": true,
+      "typing$en": true,
+      "text$en": "Here, you create a Collection. To do that, you need to add a name and the Product that is needed for this Collection. Also, you can add a description, but it is optional. \nIf everything went well, you should see the “Congratulations” message that allows us to move through the steps."
+    },
+    "createdBy": "admin",
+    "createdOn": "2021-01-27T19:19:05.081Z",
+    "modifiedOn": "2021-01-27T19:19:05.081Z"
+  },
+  {
+    "id": "builtin_text-xGSUrm",
+    "formData": {
+      "markdown$en": true,
+      "typing$en": true,
+      "text$en": "###Run \nAfter doing all these steps, in the “Run” and final part, you can see all the results to the tasks and executions you made through the way of the stepper.  This is the Home Page of the tool, and you can now Run and see all the things you have been preparing."
+    },
+    "createdBy": "admin",
+    "createdOn": "2021-01-27T19:27:29.809Z",
+    "modifiedOn": "2021-01-27T19:27:29.809Z"
+  },
+  {
+    "id": "builtin_text-YZSfRA",
+    "formData": {
+      "markdown$en": true,
+      "typing$en": true,
+      "text$en": "When you have completed the stepper (or at least one part of the stepper), you can move through the parts by clicking the part you want to move to. This is useful if you want to change something or make a double check of the steps."
+    },
+    "createdBy": "admin",
+    "createdOn": "2021-01-27T19:28:35.948Z",
+    "modifiedOn": "2021-01-27T19:28:35.948Z"
+  },
+  {
+    "id": "builtin_text-1F6qKY",
+    "formData": {
+      "markdown$en": true,
+      "typing$en": true,
+      "text$en": "**The tutorial is over, enjoy Bluexolo :)**"
+    },
+    "createdBy": "admin",
+    "createdOn": "2021-01-28T19:41:27.730Z",
+    "modifiedOn": "2021-01-28T19:41:27.730Z"
   }
 ]
