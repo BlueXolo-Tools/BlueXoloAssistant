@@ -161,7 +161,7 @@
     "formData": {
       "choices$en": [
         {
-          "title": "Yes ->",
+          "title": "Continue to the Next Step",
           "value": "Continue_Stepper"
         },
         {
@@ -171,10 +171,11 @@
       ],
       "markdown$en": true,
       "typing$en": true,
-      "text$en": "Do you want to continue?"
+      "text$en": "Do you want to continue?",
+      "disableFreeText$en": false
     },
     "createdBy": "admin",
     "createdOn": "2020-09-02T17:25:24.404Z",
-    "modifiedOn": "2020-09-02T17:25:24.404Z"
+    "modifiedOn": "2021-01-28T19:35:55.769Z"
   }
 ]
