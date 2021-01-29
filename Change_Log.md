@@ -66,3 +66,7 @@ The flow of the stepper, keyword, test case and test suite that made them repeat
 The answer for the documentation page is now a card with an image and the link. 
 
 When the users asks for GitHub, or the repositories the answer includes the repository link and latest release info.
+
+## v1.7.3
+
+Redesign and implementation of the entire flow about the stepper inside BlueXolo, now the information of each step is available for the user.
